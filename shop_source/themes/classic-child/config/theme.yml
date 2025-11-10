@@ -1,0 +1,6 @@
+imports:
+  - ../classic/assets/css/theme.css
+
+styles:
+  classic-child:
+    - assets/css/custom.css
