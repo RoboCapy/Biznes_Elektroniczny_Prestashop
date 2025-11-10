@@ -1,0 +1,20 @@
+# Ustaw wszystkie pliki tekstowe na LF
+* text=auto
+
+# Explicitnie ustaw dla poszczególnych typów plików
+*.php text
+*.js text
+*.css text
+*.html text
+*.json text
+*.xml text
+*.txt text
+*.md text
+
+# Pliki binarne - nie konwertuj
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.pdf binary
