@@ -1,24 +1,38 @@
-# PrestaShop
-/shop/var/cache/
-/shop/var/logs/
-/shop/var/sessions/
-/shop/app/config/parameters.php
-/shop/img/
-/shop/mails/
-/shop/modules/
-/shop/override/
-/shop/themes/
-/shop/upload/
-/shop/translations/
-/shop/download/
+# PrestaShop cache and logs
+shop_source/var/cache/
+shop_source/var/logs/
+shop_source/var/sessions/
+shop_source/app/cache/
+shop_source/app/logs/
 
-# Docker
-/docker/ssl/
-!.gitkeep
+# PrestaShop generated files
+shop_source/config/xml/
+shop_source/img/tmp/
+shop_source/upload/
+shop_source/download/
+shop_source/mails/
+
+# Database
+db_data/
+
+# Environment configuration
+shop_source/app/config/parameters.php
+shop_source/config/settings.inc.php
+.env
+
+# Composer
+shop_source/vendor/
+composer.lock
+
+# Node.js
+node_modules/
+shop_source/node_modules/
 
 # IDE
 .vscode/
 .idea/
+*.swp
+*.swo
 
 # System
 .DS_Store
