@@ -9,6 +9,7 @@ file_name = 'data.json'
 
 class PokerScraper:
     def __init__(self):
+        self.image_folder = destination_folder / 'images'
         self.base_url = "https://poker-sklep.pl/pl/"
         self.session = requests.Session()
 
@@ -122,6 +123,17 @@ class PokerScraper:
         colors_elements = root.select("div.product-variants ul#group_2 li span.attribute-name")
         colors = [c.get_text(strip=True) for c in colors_elements] if colors_elements else []
 
+        image_element = root.select("div.swiper-wrapper div.product-lmage-large img")
+        image_urls = [image["content"] for image in image_element] if image_element else []
+        
+        if image_urls:
+            image_urls = image_urls[:2]
+
+        image_paths = [self.download_image(path) for path in image_urls]
+        images = [
+            {'url': url, 'local_path': path} for url, path in zip(image_urls, image_paths)
+        ]
+
         long_element = root.select_one("div.section-content div.product-description div.rte-content, div#description")
         long_description = long_element.get_text(strip=True) if long_element else ""
 
@@ -133,14 +145,29 @@ class PokerScraper:
         
         return {
             "product_page": link,
+            "images": images,
             "name": name,
             "price": price,
             "short_description": short_description,
             "colors": colors,
             "long_description": long_description,
             "condition": condition,
-            "out_of_stock": out_of_stock,
+            "out_of_stock": out_of_stock
         }
+    
+    def download_image(self, url):
+        self.image_folder.mkdir(parents=True, exist_ok=True)
+        image_name = '_'.join(url.split('/')[-2:])
+        image_path = self.image_folder / image_name
+
+        if image_path.exists():
+            return str(image_path.relative_to(destination_folder)).replace("\\", "/")
+
+        image_data = self.session.get(url)
+        with open(image_path, "wb") as file:
+            file.write(image_data.content)
+
+        return str(image_path.relative_to(destination_folder.parent)).replace("\\", "/")
 
 if __name__ == "__main__":
     scraper = PokerScraper()

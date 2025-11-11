@@ -9,6 +9,16 @@
                 "products": [
                     {
                         "product_page": "https://poker-sklep.pl/pl/100-plastik/64-piatnik-100-plastik-4-indeksy.html",
+                        "images": [
+                            {
+                                "url": "https://poker-sklep.pl/165-large_default/piatnik-100-plastik-4-indeksy.jpg",
+                                "local_path": "images/165-large_default_piatnik-100-plastik-4-indeksy.jpg"
+                            },
+                            {
+                                "url": "https://poker-sklep.pl/166-large_default/piatnik-100-plastik-4-indeksy.jpg",
+                                "local_path": "images/166-large_default_piatnik-100-plastik-4-indeksy.jpg"
+                            }
+                        ],
                         "name": "Piatnik 100% Plastik - 4 indeksy",
                         "price": 42.0,
                         "short_description": "Talia kart Piatnik 1364100% Plastik",
@@ -19,6 +29,16 @@
                     },
                     {
                         "product_page": "https://poker-sklep.pl/pl/100-plastik/160-116-modiano-bike-jumbo-plastikowe.html",
+                        "images": [
+                            {
+                                "url": "https://poker-sklep.pl/444-large_default/modiano-bike-jumbo-plastikowe.jpg",
+                                "local_path": "images/444-large_default_modiano-bike-jumbo-plastikowe.jpg"
+                            },
+                            {
+                                "url": "https://poker-sklep.pl/445-large_default/modiano-bike-jumbo-plastikowe.jpg",
+                                "local_path": "images/445-large_default_modiano-bike-jumbo-plastikowe.jpg"
+                            }
+                        ],
                         "name": "Modiano Bike JUMBO PLASTIKOWE",
                         "price": 29.0,
                         "short_description": "100% plastikowe karty do gry włoskiego lidera w produkcji kart.",
@@ -32,6 +52,16 @@
                     },
                     {
                         "product_page": "https://poker-sklep.pl/pl/100-plastik/135-104-fournier-4-indeksy-100-plastik.html",
+                        "images": [
+                            {
+                                "url": "https://poker-sklep.pl/380-large_default/fournier-4-indeksy-100-plastik.jpg",
+                                "local_path": "images/380-large_default_fournier-4-indeksy-100-plastik.jpg"
+                            },
+                            {
+                                "url": "https://poker-sklep.pl/381-large_default/fournier-4-indeksy-100-plastik.jpg",
+                                "local_path": "images/381-large_default_fournier-4-indeksy-100-plastik.jpg"
+                            }
+                        ],
                         "name": "Fournier 4 indeksy 100% plastik",
                         "price": 49.0,
                         "short_description": "Fournier 2500 100% plastik4 indeksy",
@@ -45,6 +75,16 @@
                     },
                     {
                         "product_page": "https://poker-sklep.pl/pl/100-plastik/74-68-fournier-4-indeksy-100-plastik.html",
+                        "images": [
+                            {
+                                "url": "https://poker-sklep.pl/192-large_default/fournier-4-indeksy-100-plastik.jpg",
+                                "local_path": "images/192-large_default_fournier-4-indeksy-100-plastik.jpg"
+                            },
+                            {
+                                "url": "https://poker-sklep.pl/193-large_default/fournier-4-indeksy-100-plastik.jpg",
+                                "local_path": "images/193-large_default_fournier-4-indeksy-100-plastik.jpg"
+                            }
+                        ],
                         "name": "Fournier 4 indeksy 100% plastik",
                         "price": 44.0,
                         "short_description": "Fournier 2500 100% plastik4 indeksy",
@@ -58,6 +98,12 @@
                     },
                     {
                         "product_page": "https://poker-sklep.pl/pl/komplety/67-piatnik-2-talie-100-plastik-.html",
+                        "images": [
+                            {
+                                "url": "https://poker-sklep.pl/176-large_default/piatnik-2-talie-100-plastik-.jpg",
+                                "local_path": "images/176-large_default_piatnik-2-talie-100-plastik-.jpg"
+                            }
+                        ],
                         "name": "Piatnik 2 talie 100% Plastik",
                         "price": 85.0,
                         "short_description": "Komplet dwóch talii Piatnik 100% plastikowych",
@@ -68,6 +114,16 @@
                     },
                     {
                         "product_page": "https://poker-sklep.pl/pl/karty-do-gry/108-kem-poker-jumbo-arrow-redblue.html",
+                        "images": [
+                            {
+                                "url": "https://poker-sklep.pl/546-large_default/kem-poker-jumbo-arrow-redblue.jpg",
+                                "local_path": "images/546-large_default_kem-poker-jumbo-arrow-redblue.jpg"
+                            },
+                            {
+                                "url": "https://poker-sklep.pl/544-large_default/kem-poker-jumbo-arrow-redblue.jpg",
+                                "local_path": "images/544-large_default_kem-poker-jumbo-arrow-redblue.jpg"
+                            }
+                        ],
                         "name": "KEM poker JUMBO Arrow RED/BLUE",
                         "price": 349.0,
                         "short_description": "Najbardziej ekskluzywne karty do gry na świecie !",
@@ -78,6 +134,16 @@
                     },
                     {
                         "product_page": "https://poker-sklep.pl/pl/bicycle/2-1-bicycle-prestige-100-plastik.html",
+                        "images": [
+                            {
+                                "url": "https://poker-sklep.pl/48-large_default/bicycle-prestige-100-plastik.jpg",
+                                "local_path": "images/48-large_default_bicycle-prestige-100-plastik.jpg"
+                            },
+                            {
+                                "url": "https://poker-sklep.pl/49-large_default/bicycle-prestige-100-plastik.jpg",
+                                "local_path": "images/49-large_default_bicycle-prestige-100-plastik.jpg"
+                            }
+                        ],
                         "name": "Bicycle Prestige 100% PLASTIK",
                         "price": 37.0,
                         "short_description": "Karty Bicycle® PRESTIGE JUMBO Index RIDER BACK Najsłynniejsze karty świata w końcu w wersji 100% plastikowej. Rozmiar pokerowy ( 63 mm x 88 mm) kolor Red lub Blue JUMBO Indeks na przeciwległych rogach awersu.",
@@ -91,6 +157,12 @@
                     },
                     {
                         "product_page": "https://poker-sklep.pl/pl/100-plastik/61-60-piatnik-jumbo-100-plastik.html",
+                        "images": [
+                            {
+                                "url": "https://poker-sklep.pl/157-large_default/piatnik-jumbo-100-plastik.jpg",
+                                "local_path": "images/157-large_default_piatnik-jumbo-100-plastik.jpg"
+                            }
+                        ],
                         "name": "Piatnik JUMBO 100% Plastik",
                         "price": 49.0,
                         "short_description": "Piatnik 1361 JUMBO Poker",
@@ -104,6 +176,16 @@
                     },
                     {
                         "product_page": "https://poker-sklep.pl/pl/100-plastik/66-piatnik-100-plastik-jumbo.html",
+                        "images": [
+                            {
+                                "url": "https://poker-sklep.pl/172-large_default/piatnik-100-plastik-jumbo.jpg",
+                                "local_path": "images/172-large_default_piatnik-100-plastik-jumbo.jpg"
+                            },
+                            {
+                                "url": "https://poker-sklep.pl/173-large_default/piatnik-100-plastik-jumbo.jpg",
+                                "local_path": "images/173-large_default_piatnik-100-plastik-jumbo.jpg"
+                            }
+                        ],
                         "name": "Piatnik 100% Plastik - JUMBO",
                         "price": 42.0,
                         "short_description": "Talia kart Piatnik 1464100% Plastik",
@@ -114,6 +196,16 @@
                     },
                     {
                         "product_page": "https://poker-sklep.pl/pl/kategorie-produktow/181-fournier-wpt-gold-edition-redblue.html",
+                        "images": [
+                            {
+                                "url": "https://poker-sklep.pl/509-large_default/fournier-wpt-gold-edition-redblue.jpg",
+                                "local_path": "images/509-large_default_fournier-wpt-gold-edition-redblue.jpg"
+                            },
+                            {
+                                "url": "https://poker-sklep.pl/507-large_default/fournier-wpt-gold-edition-redblue.jpg",
+                                "local_path": "images/507-large_default_fournier-wpt-gold-edition-redblue.jpg"
+                            }
+                        ],
                         "name": "Fournier WPT Gold Edition Red/Blue",
                         "price": 49.0,
                         "short_description": "Złoty standard wprost od hiszpańskiego producenta.",
@@ -124,6 +216,16 @@
                     },
                     {
                         "product_page": "https://poker-sklep.pl/pl/kategorie-produktow/89-kem-poker-jumbo-blackgold.html",
+                        "images": [
+                            {
+                                "url": "https://poker-sklep.pl/250-large_default/kem-poker-jumbo-blackgold.jpg",
+                                "local_path": "images/250-large_default_kem-poker-jumbo-blackgold.jpg"
+                            },
+                            {
+                                "url": "https://poker-sklep.pl/252-large_default/kem-poker-jumbo-blackgold.jpg",
+                                "local_path": "images/252-large_default_kem-poker-jumbo-blackgold.jpg"
+                            }
+                        ],
                         "name": "KEM poker JUMBO Black/Gold",
                         "price": 349.0,
                         "short_description": "Najbardziej ekskluzywne karty do gry na świecie !",
@@ -134,6 +236,16 @@
                     },
                     {
                         "product_page": "https://poker-sklep.pl/pl/100-plastik/50-46-copag-texas-holdem-poker-peek.html",
+                        "images": [
+                            {
+                                "url": "https://poker-sklep.pl/125-large_default/copag-texas-holdem-poker-peek.jpg",
+                                "local_path": "images/125-large_default_copag-texas-holdem-poker-peek.jpg"
+                            },
+                            {
+                                "url": "https://poker-sklep.pl/126-large_default/copag-texas-holdem-poker-peek.jpg",
+                                "local_path": "images/126-large_default_copag-texas-holdem-poker-peek.jpg"
+                            }
+                        ],
                         "name": "COPAG Texas Holdem Poker Peek",
                         "price": 29.99,
                         "short_description": "COPAG Texas Holdem Poker Peek100% Plastik",
@@ -147,6 +259,16 @@
                     },
                     {
                         "product_page": "https://poker-sklep.pl/pl/100-plastik/72-64-fournier-jumbo-index-100-plastic.html",
+                        "images": [
+                            {
+                                "url": "https://poker-sklep.pl/188-large_default/fournier-jumbo-index-100-plastic.jpg",
+                                "local_path": "images/188-large_default_fournier-jumbo-index-100-plastic.jpg"
+                            },
+                            {
+                                "url": "https://poker-sklep.pl/189-large_default/fournier-jumbo-index-100-plastic.jpg",
+                                "local_path": "images/189-large_default_fournier-jumbo-index-100-plastic.jpg"
+                            }
+                        ],
                         "name": "Fournier JUMBO Index 100% Plastic",
                         "price": 54.0,
                         "short_description": "Fournier 2800 100% plastik JUMBO",
@@ -160,6 +282,16 @@
                     },
                     {
                         "product_page": "https://poker-sklep.pl/pl/100-plastik/77-74-fournier-wpt-100-plastik.html",
+                        "images": [
+                            {
+                                "url": "https://poker-sklep.pl/207-large_default/fournier-wpt-100-plastik.jpg",
+                                "local_path": "images/207-large_default_fournier-wpt-100-plastik.jpg"
+                            },
+                            {
+                                "url": "https://poker-sklep.pl/208-large_default/fournier-wpt-100-plastik.jpg",
+                                "local_path": "images/208-large_default_fournier-wpt-100-plastik.jpg"
+                            }
+                        ],
                         "name": "Fournier WPT 100% Plastik",
                         "price": 48.0,
                         "short_description": "Fournier World Poker Tour 100% plastik",
@@ -173,6 +305,16 @@
                     },
                     {
                         "product_page": "https://poker-sklep.pl/pl/100-plastik/96-88-copag-jumbo-4-index.html",
+                        "images": [
+                            {
+                                "url": "https://poker-sklep.pl/272-large_default/copag-jumbo-4-index.jpg",
+                                "local_path": "images/272-large_default_copag-jumbo-4-index.jpg"
+                            },
+                            {
+                                "url": "https://poker-sklep.pl/273-large_default/copag-jumbo-4-index.jpg",
+                                "local_path": "images/273-large_default_copag-jumbo-4-index.jpg"
+                            }
+                        ],
                         "name": "COPAG JUMBO 4 Index",
                         "price": 35.0,
                         "short_description": "100% plastikowe karty marki Copag",
@@ -186,6 +328,16 @@
                     },
                     {
                         "product_page": "https://poker-sklep.pl/pl/karty-do-gry/159-114-trefl-texas-hold-em-100-plastikowe.html",
+                        "images": [
+                            {
+                                "url": "https://poker-sklep.pl/440-large_default/trefl-texas-hold-em-100-plastikowe.jpg",
+                                "local_path": "images/440-large_default_trefl-texas-hold-em-100-plastikowe.jpg"
+                            },
+                            {
+                                "url": "https://poker-sklep.pl/441-large_default/trefl-texas-hold-em-100-plastikowe.jpg",
+                                "local_path": "images/441-large_default_trefl-texas-hold-em-100-plastikowe.jpg"
+                            }
+                        ],
                         "name": "TREFL TEXAS HOLD'EM - 100% PLASTIKOWE",
                         "price": 19.99,
                         "short_description": "PLASTIKOWE KARTY PROSTU Z POLSKI!",
@@ -199,6 +351,16 @@
                     },
                     {
                         "product_page": "https://poker-sklep.pl/pl/karty-do-gry/79-modiano-tx-100-plastik.html",
+                        "images": [
+                            {
+                                "url": "https://poker-sklep.pl/213-large_default/modiano-tx-100-plastik.jpg",
+                                "local_path": "images/213-large_default_modiano-tx-100-plastik.jpg"
+                            },
+                            {
+                                "url": "https://poker-sklep.pl/214-large_default/modiano-tx-100-plastik.jpg",
+                                "local_path": "images/214-large_default_modiano-tx-100-plastik.jpg"
+                            }
+                        ],
                         "name": "Modiano TX - 100% PLASTIK",
                         "price": 28.0,
                         "short_description": "Karty do gry Modiano Texas Holdem 100% Plastik -",
@@ -209,6 +371,12 @@
                     },
                     {
                         "product_page": "https://poker-sklep.pl/pl/kategorie-produktow/178-clear-plastic-deck-case.html",
+                        "images": [
+                            {
+                                "url": "https://poker-sklep.pl/501-large_default/clear-plastic-deck-case.jpg",
+                                "local_path": "images/501-large_default_clear-plastic-deck-case.jpg"
+                            }
+                        ],
                         "name": "Clear Plastic Deck Case",
                         "price": 9.9,
                         "short_description": "Każdy sportowiec nosi pokrowiec.",
@@ -219,6 +387,16 @@
                     },
                     {
                         "product_page": "https://poker-sklep.pl/pl/100-plastik/51-48-copag-poker-jumbo-index.html",
+                        "images": [
+                            {
+                                "url": "https://poker-sklep.pl/129-large_default/copag-poker-jumbo-index.jpg",
+                                "local_path": "images/129-large_default_copag-poker-jumbo-index.jpg"
+                            },
+                            {
+                                "url": "https://poker-sklep.pl/130-large_default/copag-poker-jumbo-index.jpg",
+                                "local_path": "images/130-large_default_copag-poker-jumbo-index.jpg"
+                            }
+                        ],
                         "name": "COPAG Poker JUMBO Index",
                         "price": 35.0,
                         "short_description": "100% plastikowe, oryginalne karty renomowanej marki COPAG",
@@ -232,6 +410,16 @@
                     },
                     {
                         "product_page": "https://poker-sklep.pl/pl/100-plastik/42-poker-jumbo-100-plastik.html",
+                        "images": [
+                            {
+                                "url": "https://poker-sklep.pl/108-large_default/poker-jumbo-100-plastik.jpg",
+                                "local_path": "images/108-large_default_poker-jumbo-100-plastik.jpg"
+                            },
+                            {
+                                "url": "https://poker-sklep.pl/109-large_default/poker-jumbo-100-plastik.jpg",
+                                "local_path": "images/109-large_default_poker-jumbo-100-plastik.jpg"
+                            }
+                        ],
                         "name": "Poker JUMBO 100% Plastik",
                         "price": 15.0,
                         "short_description": "100% Plastikowe karty do Poker",
@@ -242,6 +430,16 @@
                     },
                     {
                         "product_page": "https://poker-sklep.pl/pl/100-plastik/54-52-copag-texas-holdem-jumbo-index.html",
+                        "images": [
+                            {
+                                "url": "https://poker-sklep.pl/138-large_default/copag-texas-holdem-jumbo-index.jpg",
+                                "local_path": "images/138-large_default_copag-texas-holdem-jumbo-index.jpg"
+                            },
+                            {
+                                "url": "https://poker-sklep.pl/139-large_default/copag-texas-holdem-jumbo-index.jpg",
+                                "local_path": "images/139-large_default_copag-texas-holdem-jumbo-index.jpg"
+                            }
+                        ],
                         "name": "COPAG Texas Holdem JUMBO Index",
                         "price": 29.0,
                         "short_description": "100% plastikowe karty marki CopagJumbo Index",
@@ -260,6 +458,16 @@
                 "products": [
                     {
                         "product_page": "https://poker-sklep.pl/pl/fournier/115-100-fournier-40-redblue.html",
+                        "images": [
+                            {
+                                "url": "https://poker-sklep.pl/338-large_default/fournier-40-redblue.jpg",
+                                "local_path": "images/338-large_default_fournier-40-redblue.jpg"
+                            },
+                            {
+                                "url": "https://poker-sklep.pl/337-large_default/fournier-40-redblue.jpg",
+                                "local_path": "images/337-large_default_fournier-40-redblue.jpg"
+                            }
+                        ],
                         "name": "Fournier 40 Red/Blue",
                         "price": 17.99,
                         "short_description": "Karty do gry hiszpańskiej marki NH Fournier.",
@@ -273,6 +481,12 @@
                     },
                     {
                         "product_page": "https://poker-sklep.pl/pl/karty-do-gry/144-108-piatnik-poker-jumbo.html",
+                        "images": [
+                            {
+                                "url": "https://poker-sklep.pl/396-large_default/piatnik-poker-jumbo.jpg",
+                                "local_path": "images/396-large_default_piatnik-poker-jumbo.jpg"
+                            }
+                        ],
                         "name": "Piatnik Poker JUMBO",
                         "price": 22.99,
                         "short_description": "",
@@ -286,6 +500,12 @@
                     },
                     {
                         "product_page": "https://poker-sklep.pl/pl/bicycle/40-bicycle-rider-back-jumbo.html",
+                        "images": [
+                            {
+                                "url": "https://poker-sklep.pl/103-large_default/bicycle-rider-back-jumbo.jpg",
+                                "local_path": "images/103-large_default_bicycle-rider-back-jumbo.jpg"
+                            }
+                        ],
                         "name": "Bicycle Rider Back JUMBO",
                         "price": 15.99,
                         "short_description": "Bicycle Rider Back JUMBO",
@@ -296,6 +516,12 @@
                     },
                     {
                         "product_page": "https://poker-sklep.pl/pl/komplety/45-piatnik-opti-komplet.html",
+                        "images": [
+                            {
+                                "url": "https://poker-sklep.pl/115-large_default/piatnik-opti-komplet.jpg",
+                                "local_path": "images/115-large_default_piatnik-opti-komplet.jpg"
+                            }
+                        ],
                         "name": "Piatnik Opti - komplet",
                         "price": 59.0,
                         "short_description": "Dwie talie kart POKER OPTI PIATNIK",
@@ -306,6 +532,16 @@
                     },
                     {
                         "product_page": "https://poker-sklep.pl/pl/karty-do-gry/132-final-table-black-deck.html",
+                        "images": [
+                            {
+                                "url": "https://poker-sklep.pl/372-large_default/final-table-black-deck.jpg",
+                                "local_path": "images/372-large_default_final-table-black-deck.jpg"
+                            },
+                            {
+                                "url": "https://poker-sklep.pl/373-large_default/final-table-black-deck.jpg",
+                                "local_path": "images/373-large_default_final-table-black-deck.jpg"
+                            }
+                        ],
                         "name": "Final Table - BLACK DECK",
                         "price": 21.99,
                         "short_description": "Carna talia kart Final Table.",
@@ -316,6 +552,16 @@
                     },
                     {
                         "product_page": "https://poker-sklep.pl/pl/100-plastik/160-116-modiano-bike-jumbo-plastikowe.html",
+                        "images": [
+                            {
+                                "url": "https://poker-sklep.pl/444-large_default/modiano-bike-jumbo-plastikowe.jpg",
+                                "local_path": "images/444-large_default_modiano-bike-jumbo-plastikowe.jpg"
+                            },
+                            {
+                                "url": "https://poker-sklep.pl/445-large_default/modiano-bike-jumbo-plastikowe.jpg",
+                                "local_path": "images/445-large_default_modiano-bike-jumbo-plastikowe.jpg"
+                            }
+                        ],
                         "name": "Modiano Bike JUMBO PLASTIKOWE",
                         "price": 29.0,
                         "short_description": "100% plastikowe karty do gry włoskiego lidera w produkcji kart.",
@@ -329,6 +575,16 @@
                     },
                     {
                         "product_page": "https://poker-sklep.pl/pl/karty-do-gry/108-kem-poker-jumbo-arrow-redblue.html",
+                        "images": [
+                            {
+                                "url": "https://poker-sklep.pl/546-large_default/kem-poker-jumbo-arrow-redblue.jpg",
+                                "local_path": "images/546-large_default_kem-poker-jumbo-arrow-redblue.jpg"
+                            },
+                            {
+                                "url": "https://poker-sklep.pl/544-large_default/kem-poker-jumbo-arrow-redblue.jpg",
+                                "local_path": "images/544-large_default_kem-poker-jumbo-arrow-redblue.jpg"
+                            }
+                        ],
                         "name": "KEM poker JUMBO Arrow RED/BLUE",
                         "price": 349.0,
                         "short_description": "Najbardziej ekskluzywne karty do gry na świecie !",
@@ -339,6 +595,16 @@
                     },
                     {
                         "product_page": "https://poker-sklep.pl/pl/bicycle/2-1-bicycle-prestige-100-plastik.html",
+                        "images": [
+                            {
+                                "url": "https://poker-sklep.pl/48-large_default/bicycle-prestige-100-plastik.jpg",
+                                "local_path": "images/48-large_default_bicycle-prestige-100-plastik.jpg"
+                            },
+                            {
+                                "url": "https://poker-sklep.pl/49-large_default/bicycle-prestige-100-plastik.jpg",
+                                "local_path": "images/49-large_default_bicycle-prestige-100-plastik.jpg"
+                            }
+                        ],
                         "name": "Bicycle Prestige 100% PLASTIK",
                         "price": 37.0,
                         "short_description": "Karty Bicycle® PRESTIGE JUMBO Index RIDER BACK Najsłynniejsze karty świata w końcu w wersji 100% plastikowej. Rozmiar pokerowy ( 63 mm x 88 mm) kolor Red lub Blue JUMBO Indeks na przeciwległych rogach awersu.",
@@ -352,6 +618,12 @@
                     },
                     {
                         "product_page": "https://poker-sklep.pl/pl/100-plastik/61-60-piatnik-jumbo-100-plastik.html",
+                        "images": [
+                            {
+                                "url": "https://poker-sklep.pl/157-large_default/piatnik-jumbo-100-plastik.jpg",
+                                "local_path": "images/157-large_default_piatnik-jumbo-100-plastik.jpg"
+                            }
+                        ],
                         "name": "Piatnik JUMBO 100% Plastik",
                         "price": 49.0,
                         "short_description": "Piatnik 1361 JUMBO Poker",
@@ -365,6 +637,16 @@
                     },
                     {
                         "product_page": "https://poker-sklep.pl/pl/100-plastik/66-piatnik-100-plastik-jumbo.html",
+                        "images": [
+                            {
+                                "url": "https://poker-sklep.pl/172-large_default/piatnik-100-plastik-jumbo.jpg",
+                                "local_path": "images/172-large_default_piatnik-100-plastik-jumbo.jpg"
+                            },
+                            {
+                                "url": "https://poker-sklep.pl/173-large_default/piatnik-100-plastik-jumbo.jpg",
+                                "local_path": "images/173-large_default_piatnik-100-plastik-jumbo.jpg"
+                            }
+                        ],
                         "name": "Piatnik 100% Plastik - JUMBO",
                         "price": 42.0,
                         "short_description": "Talia kart Piatnik 1464100% Plastik",
@@ -375,6 +657,16 @@
                     },
                     {
                         "product_page": "https://poker-sklep.pl/pl/kategorie-produktow/105-92-fournier-818-4-kolory.html",
+                        "images": [
+                            {
+                                "url": "https://poker-sklep.pl/308-large_default/fournier-818-4-kolory.jpg",
+                                "local_path": "images/308-large_default_fournier-818-4-kolory.jpg"
+                            },
+                            {
+                                "url": "https://poker-sklep.pl/309-large_default/fournier-818-4-kolory.jpg",
+                                "local_path": "images/309-large_default_fournier-818-4-kolory.jpg"
+                            }
+                        ],
                         "name": "Fournier 818 - 4 kolory",
                         "price": 16.99,
                         "short_description": "Karty do gry hiszpańskiej marki NH Fournier.",
@@ -390,6 +682,16 @@
                     },
                     {
                         "product_page": "https://poker-sklep.pl/pl/kategorie-produktow/190-131-fournier-818-4-kolory.html",
+                        "images": [
+                            {
+                                "url": "https://poker-sklep.pl/521-large_default/fournier-818-4-kolory.jpg",
+                                "local_path": "images/521-large_default_fournier-818-4-kolory.jpg"
+                            },
+                            {
+                                "url": "https://poker-sklep.pl/522-large_default/fournier-818-4-kolory.jpg",
+                                "local_path": "images/522-large_default_fournier-818-4-kolory.jpg"
+                            }
+                        ],
                         "name": "Fournier 818 JUMBO Poker",
                         "price": 19.99,
                         "short_description": "",
@@ -403,6 +705,16 @@
                     },
                     {
                         "product_page": "https://poker-sklep.pl/pl/kategorie-produktow/181-fournier-wpt-gold-edition-redblue.html",
+                        "images": [
+                            {
+                                "url": "https://poker-sklep.pl/509-large_default/fournier-wpt-gold-edition-redblue.jpg",
+                                "local_path": "images/509-large_default_fournier-wpt-gold-edition-redblue.jpg"
+                            },
+                            {
+                                "url": "https://poker-sklep.pl/507-large_default/fournier-wpt-gold-edition-redblue.jpg",
+                                "local_path": "images/507-large_default_fournier-wpt-gold-edition-redblue.jpg"
+                            }
+                        ],
                         "name": "Fournier WPT Gold Edition Red/Blue",
                         "price": 49.0,
                         "short_description": "Złoty standard wprost od hiszpańskiego producenta.",
@@ -413,6 +725,16 @@
                     },
                     {
                         "product_page": "https://poker-sklep.pl/pl/kategorie-produktow/89-kem-poker-jumbo-blackgold.html",
+                        "images": [
+                            {
+                                "url": "https://poker-sklep.pl/250-large_default/kem-poker-jumbo-blackgold.jpg",
+                                "local_path": "images/250-large_default_kem-poker-jumbo-blackgold.jpg"
+                            },
+                            {
+                                "url": "https://poker-sklep.pl/252-large_default/kem-poker-jumbo-blackgold.jpg",
+                                "local_path": "images/252-large_default_kem-poker-jumbo-blackgold.jpg"
+                            }
+                        ],
                         "name": "KEM poker JUMBO Black/Gold",
                         "price": 349.0,
                         "short_description": "Najbardziej ekskluzywne karty do gry na świecie !",
@@ -423,6 +745,16 @@
                     },
                     {
                         "product_page": "https://poker-sklep.pl/pl/karty-do-gry/55-54-bee-jumbo.html",
+                        "images": [
+                            {
+                                "url": "https://poker-sklep.pl/140-large_default/bee-jumbo.jpg",
+                                "local_path": "images/140-large_default_bee-jumbo.jpg"
+                            },
+                            {
+                                "url": "https://poker-sklep.pl/141-large_default/bee-jumbo.jpg",
+                                "local_path": "images/141-large_default_bee-jumbo.jpg"
+                            }
+                        ],
                         "name": "Bee Jumbo",
                         "price": 20.0,
                         "short_description": "Kultowa talia kart do pokera.Zdaniem wielu są to najlepsze karty do gry!",
@@ -436,6 +768,16 @@
                     },
                     {
                         "product_page": "https://poker-sklep.pl/pl/100-plastik/72-64-fournier-jumbo-index-100-plastic.html",
+                        "images": [
+                            {
+                                "url": "https://poker-sklep.pl/188-large_default/fournier-jumbo-index-100-plastic.jpg",
+                                "local_path": "images/188-large_default_fournier-jumbo-index-100-plastic.jpg"
+                            },
+                            {
+                                "url": "https://poker-sklep.pl/189-large_default/fournier-jumbo-index-100-plastic.jpg",
+                                "local_path": "images/189-large_default_fournier-jumbo-index-100-plastic.jpg"
+                            }
+                        ],
                         "name": "Fournier JUMBO Index 100% Plastic",
                         "price": 54.0,
                         "short_description": "Fournier 2800 100% plastik JUMBO",
@@ -449,6 +791,16 @@
                     },
                     {
                         "product_page": "https://poker-sklep.pl/pl/100-plastik/77-74-fournier-wpt-100-plastik.html",
+                        "images": [
+                            {
+                                "url": "https://poker-sklep.pl/207-large_default/fournier-wpt-100-plastik.jpg",
+                                "local_path": "images/207-large_default_fournier-wpt-100-plastik.jpg"
+                            },
+                            {
+                                "url": "https://poker-sklep.pl/208-large_default/fournier-wpt-100-plastik.jpg",
+                                "local_path": "images/208-large_default_fournier-wpt-100-plastik.jpg"
+                            }
+                        ],
                         "name": "Fournier WPT 100% Plastik",
                         "price": 48.0,
                         "short_description": "Fournier World Poker Tour 100% plastik",
@@ -462,6 +814,16 @@
                     },
                     {
                         "product_page": "https://poker-sklep.pl/pl/100-plastik/96-88-copag-jumbo-4-index.html",
+                        "images": [
+                            {
+                                "url": "https://poker-sklep.pl/272-large_default/copag-jumbo-4-index.jpg",
+                                "local_path": "images/272-large_default_copag-jumbo-4-index.jpg"
+                            },
+                            {
+                                "url": "https://poker-sklep.pl/273-large_default/copag-jumbo-4-index.jpg",
+                                "local_path": "images/273-large_default_copag-jumbo-4-index.jpg"
+                            }
+                        ],
                         "name": "COPAG JUMBO 4 Index",
                         "price": 35.0,
                         "short_description": "100% plastikowe karty marki Copag",
@@ -475,6 +837,16 @@
                     },
                     {
                         "product_page": "https://poker-sklep.pl/pl/karty-do-gry/79-modiano-tx-100-plastik.html",
+                        "images": [
+                            {
+                                "url": "https://poker-sklep.pl/213-large_default/modiano-tx-100-plastik.jpg",
+                                "local_path": "images/213-large_default_modiano-tx-100-plastik.jpg"
+                            },
+                            {
+                                "url": "https://poker-sklep.pl/214-large_default/modiano-tx-100-plastik.jpg",
+                                "local_path": "images/214-large_default_modiano-tx-100-plastik.jpg"
+                            }
+                        ],
                         "name": "Modiano TX - 100% PLASTIK",
                         "price": 28.0,
                         "short_description": "Karty do gry Modiano Texas Holdem 100% Plastik -",
@@ -485,6 +857,16 @@
                     },
                     {
                         "product_page": "https://poker-sklep.pl/pl/100-plastik/51-48-copag-poker-jumbo-index.html",
+                        "images": [
+                            {
+                                "url": "https://poker-sklep.pl/129-large_default/copag-poker-jumbo-index.jpg",
+                                "local_path": "images/129-large_default_copag-poker-jumbo-index.jpg"
+                            },
+                            {
+                                "url": "https://poker-sklep.pl/130-large_default/copag-poker-jumbo-index.jpg",
+                                "local_path": "images/130-large_default_copag-poker-jumbo-index.jpg"
+                            }
+                        ],
                         "name": "COPAG Poker JUMBO Index",
                         "price": 35.0,
                         "short_description": "100% plastikowe, oryginalne karty renomowanej marki COPAG",
@@ -498,6 +880,16 @@
                     },
                     {
                         "product_page": "https://poker-sklep.pl/pl/100-plastik/42-poker-jumbo-100-plastik.html",
+                        "images": [
+                            {
+                                "url": "https://poker-sklep.pl/108-large_default/poker-jumbo-100-plastik.jpg",
+                                "local_path": "images/108-large_default_poker-jumbo-100-plastik.jpg"
+                            },
+                            {
+                                "url": "https://poker-sklep.pl/109-large_default/poker-jumbo-100-plastik.jpg",
+                                "local_path": "images/109-large_default_poker-jumbo-100-plastik.jpg"
+                            }
+                        ],
                         "name": "Poker JUMBO 100% Plastik",
                         "price": 15.0,
                         "short_description": "100% Plastikowe karty do Poker",
@@ -508,6 +900,16 @@
                     },
                     {
                         "product_page": "https://poker-sklep.pl/pl/100-plastik/54-52-copag-texas-holdem-jumbo-index.html",
+                        "images": [
+                            {
+                                "url": "https://poker-sklep.pl/138-large_default/copag-texas-holdem-jumbo-index.jpg",
+                                "local_path": "images/138-large_default_copag-texas-holdem-jumbo-index.jpg"
+                            },
+                            {
+                                "url": "https://poker-sklep.pl/139-large_default/copag-texas-holdem-jumbo-index.jpg",
+                                "local_path": "images/139-large_default_copag-texas-holdem-jumbo-index.jpg"
+                            }
+                        ],
                         "name": "COPAG Texas Holdem JUMBO Index",
                         "price": 29.0,
                         "short_description": "100% plastikowe karty marki CopagJumbo Index",
@@ -526,6 +928,12 @@
                 "products": [
                     {
                         "product_page": "https://poker-sklep.pl/pl/karty-do-gry/124-piatnik-komplet-lux.html",
+                        "images": [
+                            {
+                                "url": "https://poker-sklep.pl/360-large_default/piatnik-komplet-lux.jpg",
+                                "local_path": "images/360-large_default_piatnik-komplet-lux.jpg"
+                            }
+                        ],
                         "name": "Piatnik - komplet LUX",
                         "price": 129.0,
                         "short_description": "",
@@ -536,6 +944,12 @@
                     },
                     {
                         "product_page": "https://poker-sklep.pl/pl/komplety/45-piatnik-opti-komplet.html",
+                        "images": [
+                            {
+                                "url": "https://poker-sklep.pl/115-large_default/piatnik-opti-komplet.jpg",
+                                "local_path": "images/115-large_default_piatnik-opti-komplet.jpg"
+                            }
+                        ],
                         "name": "Piatnik Opti - komplet",
                         "price": 59.0,
                         "short_description": "Dwie talie kart POKER OPTI PIATNIK",
@@ -546,6 +960,12 @@
                     },
                     {
                         "product_page": "https://poker-sklep.pl/pl/komplety/67-piatnik-2-talie-100-plastik-.html",
+                        "images": [
+                            {
+                                "url": "https://poker-sklep.pl/176-large_default/piatnik-2-talie-100-plastik-.jpg",
+                                "local_path": "images/176-large_default_piatnik-2-talie-100-plastik-.jpg"
+                            }
+                        ],
                         "name": "Piatnik 2 talie 100% Plastik",
                         "price": 85.0,
                         "short_description": "Komplet dwóch talii Piatnik 100% plastikowych",
@@ -556,6 +976,16 @@
                     },
                     {
                         "product_page": "https://poker-sklep.pl/pl/karty-do-gry/108-kem-poker-jumbo-arrow-redblue.html",
+                        "images": [
+                            {
+                                "url": "https://poker-sklep.pl/546-large_default/kem-poker-jumbo-arrow-redblue.jpg",
+                                "local_path": "images/546-large_default_kem-poker-jumbo-arrow-redblue.jpg"
+                            },
+                            {
+                                "url": "https://poker-sklep.pl/544-large_default/kem-poker-jumbo-arrow-redblue.jpg",
+                                "local_path": "images/544-large_default_kem-poker-jumbo-arrow-redblue.jpg"
+                            }
+                        ],
                         "name": "KEM poker JUMBO Arrow RED/BLUE",
                         "price": 349.0,
                         "short_description": "Najbardziej ekskluzywne karty do gry na świecie !",
@@ -566,6 +996,16 @@
                     },
                     {
                         "product_page": "https://poker-sklep.pl/pl/kategorie-produktow/89-kem-poker-jumbo-blackgold.html",
+                        "images": [
+                            {
+                                "url": "https://poker-sklep.pl/250-large_default/kem-poker-jumbo-blackgold.jpg",
+                                "local_path": "images/250-large_default_kem-poker-jumbo-blackgold.jpg"
+                            },
+                            {
+                                "url": "https://poker-sklep.pl/252-large_default/kem-poker-jumbo-blackgold.jpg",
+                                "local_path": "images/252-large_default_kem-poker-jumbo-blackgold.jpg"
+                            }
+                        ],
                         "name": "KEM poker JUMBO Black/Gold",
                         "price": 349.0,
                         "short_description": "Najbardziej ekskluzywne karty do gry na świecie !",
@@ -576,6 +1016,16 @@
                     },
                     {
                         "product_page": "https://poker-sklep.pl/pl/karty-do-gry/159-114-trefl-texas-hold-em-100-plastikowe.html",
+                        "images": [
+                            {
+                                "url": "https://poker-sklep.pl/440-large_default/trefl-texas-hold-em-100-plastikowe.jpg",
+                                "local_path": "images/440-large_default_trefl-texas-hold-em-100-plastikowe.jpg"
+                            },
+                            {
+                                "url": "https://poker-sklep.pl/441-large_default/trefl-texas-hold-em-100-plastikowe.jpg",
+                                "local_path": "images/441-large_default_trefl-texas-hold-em-100-plastikowe.jpg"
+                            }
+                        ],
                         "name": "TREFL TEXAS HOLD'EM - 100% PLASTIKOWE",
                         "price": 19.99,
                         "short_description": "PLASTIKOWE KARTY PROSTU Z POLSKI!",
@@ -601,6 +1051,16 @@
                 "products": [
                     {
                         "product_page": "https://poker-sklep.pl/pl/kategorie-produktow/184-zestaw-premium-w-skorzanej-walizce.html",
+                        "images": [
+                            {
+                                "url": "https://poker-sklep.pl/512-large_default/zestaw-premium-w-skorzanej-walizce.jpg",
+                                "local_path": "images/512-large_default_zestaw-premium-w-skorzanej-walizce.jpg"
+                            },
+                            {
+                                "url": "https://poker-sklep.pl/513-large_default/zestaw-premium-w-skorzanej-walizce.jpg",
+                                "local_path": "images/513-large_default_zestaw-premium-w-skorzanej-walizce.jpg"
+                            }
+                        ],
                         "name": "Zestaw Premium w skórzanej walizce",
                         "price": 139.0,
                         "short_description": "",
@@ -611,6 +1071,16 @@
                     },
                     {
                         "product_page": "https://poker-sklep.pl/pl/zetony/65-100-zetonow-bicycle-8-g.html",
+                        "images": [
+                            {
+                                "url": "https://poker-sklep.pl/167-large_default/100-zetonow-bicycle-8-g.jpg",
+                                "local_path": "images/167-large_default_100-zetonow-bicycle-8-g.jpg"
+                            },
+                            {
+                                "url": "https://poker-sklep.pl/168-large_default/100-zetonow-bicycle-8-g.jpg",
+                                "local_path": "images/168-large_default_100-zetonow-bicycle-8-g.jpg"
+                            }
+                        ],
                         "name": "100 żetonów Bicycle - 8 g.",
                         "price": 89.0,
                         "short_description": "Komplet 100 żetonów Bicycle",
@@ -621,6 +1091,16 @@
                     },
                     {
                         "product_page": "https://poker-sklep.pl/pl/zetony/60-100-zetonow-piatnik-14-g.html",
+                        "images": [
+                            {
+                                "url": "https://poker-sklep.pl/154-large_default/100-zetonow-piatnik-14-g.jpg",
+                                "local_path": "images/154-large_default_100-zetonow-piatnik-14-g.jpg"
+                            },
+                            {
+                                "url": "https://poker-sklep.pl/155-large_default/100-zetonow-piatnik-14-g.jpg",
+                                "local_path": "images/155-large_default_100-zetonow-piatnik-14-g.jpg"
+                            }
+                        ],
                         "name": "100 żetonów Piatnik - 14 g.",
                         "price": 99.0,
                         "short_description": "Komplet 100 żetonów PIatnik",
@@ -631,6 +1111,16 @@
                     },
                     {
                         "product_page": "https://poker-sklep.pl/pl/zestawy-pokerowe/58-pro-piatnik-300-zetonow.html",
+                        "images": [
+                            {
+                                "url": "https://poker-sklep.pl/150-large_default/pro-piatnik-300-zetonow.jpg",
+                                "local_path": "images/150-large_default_pro-piatnik-300-zetonow.jpg"
+                            },
+                            {
+                                "url": "https://poker-sklep.pl/151-large_default/pro-piatnik-300-zetonow.jpg",
+                                "local_path": "images/151-large_default_pro-piatnik-300-zetonow.jpg"
+                            }
+                        ],
                         "name": "Pro Piatnik - 300 żetonów",
                         "price": 299.0,
                         "short_description": "Zestaw Pro Poker 300 - Piatnik",
@@ -646,6 +1136,16 @@
                 "products": [
                     {
                         "product_page": "https://poker-sklep.pl/pl/kategorie-produktow/201-zestaw-do-pokera-premium-500-szt-w-srebrnej-walizce-niskie-nominaly-zetony-14g-.html",
+                        "images": [
+                            {
+                                "url": "https://poker-sklep.pl/563-large_default/zestaw-do-pokera-premium-500-szt-w-srebrnej-walizce-niskie-nominaly-zetony-14g-.jpg",
+                                "local_path": "images/563-large_default_zestaw-do-pokera-premium-500-szt-w-srebrnej-walizce-niskie-nominaly-zetony-14g-.jpg"
+                            },
+                            {
+                                "url": "https://poker-sklep.pl/560-large_default/zestaw-do-pokera-premium-500-szt-w-srebrnej-walizce-niskie-nominaly-zetony-14g-.jpg",
+                                "local_path": "images/560-large_default_zestaw-do-pokera-premium-500-szt-w-srebrnej-walizce-niskie-nominaly-zetony-14g-.jpg"
+                            }
+                        ],
                         "name": "Zestaw do Pokera PREMIUM 500 szt w Srebrnej Walizce Niskie nominały Żetony 14g",
                         "price": 389.0,
                         "short_description": "",
@@ -656,6 +1156,16 @@
                     },
                     {
                         "product_page": "https://poker-sklep.pl/pl/kategorie-produktow/200-zestaw-do-pokera-premium-500-szt-w-srebrnej-walizce-niskie-nominaly-zetony-14g-.html",
+                        "images": [
+                            {
+                                "url": "https://poker-sklep.pl/555-large_default/zestaw-do-pokera-premium-500-szt-w-srebrnej-walizce-niskie-nominaly-zetony-14g-.jpg",
+                                "local_path": "images/555-large_default_zestaw-do-pokera-premium-500-szt-w-srebrnej-walizce-niskie-nominaly-zetony-14g-.jpg"
+                            },
+                            {
+                                "url": "https://poker-sklep.pl/556-large_default/zestaw-do-pokera-premium-500-szt-w-srebrnej-walizce-niskie-nominaly-zetony-14g-.jpg",
+                                "local_path": "images/556-large_default_zestaw-do-pokera-premium-500-szt-w-srebrnej-walizce-niskie-nominaly-zetony-14g-.jpg"
+                            }
+                        ],
                         "name": "Zestaw do Pokera PREMIUM 500 szt w Srebrnej Walizce Niskie nominały Żetony 14g",
                         "price": 389.0,
                         "short_description": "",
@@ -666,6 +1176,16 @@
                     },
                     {
                         "product_page": "https://poker-sklep.pl/pl/kategorie-produktow/199-zestaw-do-pokera-pro-prestige-z-nominalami-500-zetonow-14-g-karty-plastik.html",
+                        "images": [
+                            {
+                                "url": "https://poker-sklep.pl/554-large_default/zestaw-do-pokera-pro-prestige-z-nominalami-500-zetonow-14-g-karty-plastik.jpg",
+                                "local_path": "images/554-large_default_zestaw-do-pokera-pro-prestige-z-nominalami-500-zetonow-14-g-karty-plastik.jpg"
+                            },
+                            {
+                                "url": "https://poker-sklep.pl/548-large_default/zestaw-do-pokera-pro-prestige-z-nominalami-500-zetonow-14-g-karty-plastik.jpg",
+                                "local_path": "images/548-large_default_zestaw-do-pokera-pro-prestige-z-nominalami-500-zetonow-14-g-karty-plastik.jpg"
+                            }
+                        ],
                         "name": "Zestaw do Pokera PRO PRESTIGE z nominałami - 500 żetonów 14 g, karty plastik",
                         "price": 499.0,
                         "short_description": "",
@@ -676,6 +1196,16 @@
                     },
                     {
                         "product_page": "https://poker-sklep.pl/pl/kategorie-produktow/146-modiano-gettoniera-500-zetonow.html",
+                        "images": [
+                            {
+                                "url": "https://poker-sklep.pl/399-large_default/modiano-gettoniera-500-zetonow.jpg",
+                                "local_path": "images/399-large_default_modiano-gettoniera-500-zetonow.jpg"
+                            },
+                            {
+                                "url": "https://poker-sklep.pl/400-large_default/modiano-gettoniera-500-zetonow.jpg",
+                                "local_path": "images/400-large_default_modiano-gettoniera-500-zetonow.jpg"
+                            }
+                        ],
                         "name": "Modiano GETTONIERA - 500 żetonów",
                         "price": 349.0,
                         "short_description": "Szukasz markowego zestawu o gry w pokera?Czas zamienić Twój dotychczasowy?Modiano GETTONIERA - 500 żetonów z nominałamikażdy o wadze aż 14 g w oryginalnym, obracającym sięstojaku!",
@@ -686,6 +1216,16 @@
                     },
                     {
                         "product_page": "https://poker-sklep.pl/pl/zestawy-pokerowe/176-zestaw-500-zetonow-135-g-low-stakes.html",
+                        "images": [
+                            {
+                                "url": "https://poker-sklep.pl/497-large_default/zestaw-500-zetonow-135-g-low-stakes.jpg",
+                                "local_path": "images/497-large_default_zestaw-500-zetonow-135-g-low-stakes.jpg"
+                            },
+                            {
+                                "url": "https://poker-sklep.pl/498-large_default/zestaw-500-zetonow-135-g-low-stakes.jpg",
+                                "local_path": "images/498-large_default_zestaw-500-zetonow-135-g-low-stakes.jpg"
+                            }
+                        ],
                         "name": "Zestaw 500 żetonów 13,5 g LOW STAKES",
                         "price": 349.0,
                         "short_description": "Zestaw 500 żetonów o wysokich nowinałach.",
@@ -696,6 +1236,16 @@
                     },
                     {
                         "product_page": "https://poker-sklep.pl/pl/kategorie-produktow/155-zestaw-do-pokera-500-chips-mata.html",
+                        "images": [
+                            {
+                                "url": "https://poker-sklep.pl/425-large_default/zestaw-do-pokera-500-chips-mata.jpg",
+                                "local_path": "images/425-large_default_zestaw-do-pokera-500-chips-mata.jpg"
+                            },
+                            {
+                                "url": "https://poker-sklep.pl/428-large_default/zestaw-do-pokera-500-chips-mata.jpg",
+                                "local_path": "images/428-large_default_zestaw-do-pokera-500-chips-mata.jpg"
+                            }
+                        ],
                         "name": "Zestaw do pokera  - 500 żetonów 11,5 grama",
                         "price": 279.0,
                         "short_description": "Zestaw 500 żetonów do pokera w srebrnej, aluminiowanej walizce.",
@@ -706,6 +1256,16 @@
                     },
                     {
                         "product_page": "https://poker-sklep.pl/pl/kategorie-produktow/156-zestaw-500-zetonow-135-g-high-stakes.html",
+                        "images": [
+                            {
+                                "url": "https://poker-sklep.pl/435-large_default/zestaw-500-zetonow-135-g-high-stakes.jpg",
+                                "local_path": "images/435-large_default_zestaw-500-zetonow-135-g-high-stakes.jpg"
+                            },
+                            {
+                                "url": "https://poker-sklep.pl/436-large_default/zestaw-500-zetonow-135-g-high-stakes.jpg",
+                                "local_path": "images/436-large_default_zestaw-500-zetonow-135-g-high-stakes.jpg"
+                            }
+                        ],
                         "name": "Zestaw 500 żetonów 13,5 g HIGH STAKES",
                         "price": 349.0,
                         "short_description": "Zestaw żetonów o wysokich nowinałach.",
@@ -716,6 +1276,16 @@
                     },
                     {
                         "product_page": "https://poker-sklep.pl/pl/kategorie-produktow/133-zestaw-do-pokera-300-zetonow-standard.html",
+                        "images": [
+                            {
+                                "url": "https://poker-sklep.pl/374-large_default/zestaw-do-pokera-300-zetonow-standard.jpg",
+                                "local_path": "images/374-large_default_zestaw-do-pokera-300-zetonow-standard.jpg"
+                            },
+                            {
+                                "url": "https://poker-sklep.pl/378-large_default/zestaw-do-pokera-300-zetonow-standard.jpg",
+                                "local_path": "images/378-large_default_zestaw-do-pokera-300-zetonow-standard.jpg"
+                            }
+                        ],
                         "name": "Zestaw do pokera  - 300 żetonów STANDARD",
                         "price": 179.0,
                         "short_description": "Standardowy zestaw do gry w pokera",
@@ -726,6 +1296,12 @@
                     },
                     {
                         "product_page": "https://poker-sklep.pl/pl/kategorie-produktow/131-zestaw-do-pokera-500-chips-mata.html",
+                        "images": [
+                            {
+                                "url": "https://poker-sklep.pl/419-large_default/zestaw-do-pokera-500-chips-mata.jpg",
+                                "local_path": "images/419-large_default_zestaw-do-pokera-500-chips-mata.jpg"
+                            }
+                        ],
                         "name": "Zestaw do pokera  - 500 żetonów 11,5 grama",
                         "price": 249.0,
                         "short_description": "Zestaw 500 żetonów do pokera w czarnej, eleganckiej walizce.",
@@ -748,6 +1324,12 @@
                 "products": [
                     {
                         "product_page": "https://poker-sklep.pl/pl/kategorie-produktow/175-zetony-ceramiczne-wsop.html",
+                        "images": [
+                            {
+                                "url": "https://poker-sklep.pl/496-large_default/zetony-ceramiczne-wsop.jpg",
+                                "local_path": "images/496-large_default_zetony-ceramiczne-wsop.jpg"
+                            }
+                        ],
                         "name": "Żetony ceramiczne WSOP",
                         "price": 3.9,
                         "short_description": "Profesjonalne żetony ceramiczne sygnowa logiem WSOP.",
@@ -758,6 +1340,16 @@
                     },
                     {
                         "product_page": "https://poker-sklep.pl/pl/zetony/65-100-zetonow-bicycle-8-g.html",
+                        "images": [
+                            {
+                                "url": "https://poker-sklep.pl/167-large_default/100-zetonow-bicycle-8-g.jpg",
+                                "local_path": "images/167-large_default_100-zetonow-bicycle-8-g.jpg"
+                            },
+                            {
+                                "url": "https://poker-sklep.pl/168-large_default/100-zetonow-bicycle-8-g.jpg",
+                                "local_path": "images/168-large_default_100-zetonow-bicycle-8-g.jpg"
+                            }
+                        ],
                         "name": "100 żetonów Bicycle - 8 g.",
                         "price": 89.0,
                         "short_description": "Komplet 100 żetonów Bicycle",
@@ -768,6 +1360,16 @@
                     },
                     {
                         "product_page": "https://poker-sklep.pl/pl/zetony/60-100-zetonow-piatnik-14-g.html",
+                        "images": [
+                            {
+                                "url": "https://poker-sklep.pl/154-large_default/100-zetonow-piatnik-14-g.jpg",
+                                "local_path": "images/154-large_default_100-zetonow-piatnik-14-g.jpg"
+                            },
+                            {
+                                "url": "https://poker-sklep.pl/155-large_default/100-zetonow-piatnik-14-g.jpg",
+                                "local_path": "images/155-large_default_100-zetonow-piatnik-14-g.jpg"
+                            }
+                        ],
                         "name": "100 żetonów Piatnik - 14 g.",
                         "price": 99.0,
                         "short_description": "Komplet 100 żetonów PIatnik",
@@ -778,6 +1380,12 @@
                     },
                     {
                         "product_page": "https://poker-sklep.pl/pl/zetony/185-123-plakietka-pokerowa.html",
+                        "images": [
+                            {
+                                "url": "https://poker-sklep.pl/514-large_default/plakietka-pokerowa.jpg",
+                                "local_path": "images/514-large_default_plakietka-pokerowa.jpg"
+                            }
+                        ],
                         "name": "Plakietka pokerowa",
                         "price": 3.9,
                         "short_description": "",
@@ -794,6 +1402,12 @@
                     },
                     {
                         "product_page": "https://poker-sklep.pl/pl/zetony/174-poker-chip.html",
+                        "images": [
+                            {
+                                "url": "https://poker-sklep.pl/495-large_default/poker-chip.jpg",
+                                "local_path": "images/495-large_default_poker-chip.jpg"
+                            }
+                        ],
                         "name": "Royal Flush Chips",
                         "price": 0.89,
                         "short_description": "",
@@ -804,6 +1418,16 @@
                     },
                     {
                         "product_page": "https://poker-sklep.pl/pl/kategorie-produktow/149-joker-zetony-kasynowe.html",
+                        "images": [
+                            {
+                                "url": "https://poker-sklep.pl/409-large_default/joker-zetony-kasynowe.jpg",
+                                "local_path": "images/409-large_default_joker-zetony-kasynowe.jpg"
+                            },
+                            {
+                                "url": "https://poker-sklep.pl/410-large_default/joker-zetony-kasynowe.jpg",
+                                "local_path": "images/410-large_default_joker-zetony-kasynowe.jpg"
+                            }
+                        ],
                         "name": "JOKER - żetony kasynowe",
                         "price": 0.69,
                         "short_description": "Profesjonalne żetony pokerowe o wadze 10 gram każdy.",
@@ -814,6 +1438,16 @@
                     },
                     {
                         "product_page": "https://poker-sklep.pl/pl/zetony/121-pro-poker-clay-zetony-135-g.html",
+                        "images": [
+                            {
+                                "url": "https://poker-sklep.pl/354-large_default/pro-poker-clay-zetony-135-g.jpg",
+                                "local_path": "images/354-large_default_pro-poker-clay-zetony-135-g.jpg"
+                            },
+                            {
+                                "url": "https://poker-sklep.pl/355-large_default/pro-poker-clay-zetony-135-g.jpg",
+                                "local_path": "images/355-large_default_pro-poker-clay-zetony-135-g.jpg"
+                            }
+                        ],
                         "name": "Pro Poker Clay - żetony 13.5 g",
                         "price": 1.39,
                         "short_description": "",
@@ -824,6 +1458,16 @@
                     },
                     {
                         "product_page": "https://poker-sklep.pl/pl/zetony/119-dice-chips-zetony-115-g.html",
+                        "images": [
+                            {
+                                "url": "https://poker-sklep.pl/347-large_default/dice-chips-zetony-115-g.jpg",
+                                "local_path": "images/347-large_default_dice-chips-zetony-115-g.jpg"
+                            },
+                            {
+                                "url": "https://poker-sklep.pl/348-large_default/dice-chips-zetony-115-g.jpg",
+                                "local_path": "images/348-large_default_dice-chips-zetony-115-g.jpg"
+                            }
+                        ],
                         "name": "Dice Chips - żetony 11.5 g",
                         "price": 1.19,
                         "short_description": "",
@@ -834,6 +1478,16 @@
                     },
                     {
                         "product_page": "https://poker-sklep.pl/pl/kategorie-produktow/152-zetony-do-pokera-115-g.html",
+                        "images": [
+                            {
+                                "url": "https://poker-sklep.pl/414-large_default/zetony-do-pokera-115-g.jpg",
+                                "local_path": "images/414-large_default_zetony-do-pokera-115-g.jpg"
+                            },
+                            {
+                                "url": "https://poker-sklep.pl/415-large_default/zetony-do-pokera-115-g.jpg",
+                                "local_path": "images/415-large_default_zetony-do-pokera-115-g.jpg"
+                            }
+                        ],
                         "name": "Żetony do pokera 11,5 g.",
                         "price": 0.99,
                         "short_description": "Ten dwukolorowy żeton o wadze 11,5 grama wykonany jest z ABSu oraz posiada metalowy insert w środku.",
@@ -844,6 +1498,16 @@
                     },
                     {
                         "product_page": "https://poker-sklep.pl/pl/zetony/130-poker-chip.html",
+                        "images": [
+                            {
+                                "url": "https://poker-sklep.pl/366-large_default/poker-chip.jpg",
+                                "local_path": "images/366-large_default_poker-chip.jpg"
+                            },
+                            {
+                                "url": "https://poker-sklep.pl/367-large_default/poker-chip.jpg",
+                                "local_path": "images/367-large_default_poker-chip.jpg"
+                            }
+                        ],
                         "name": "Poker chip",
                         "price": 0.99,
                         "short_description": "",
@@ -866,6 +1530,12 @@
                 "products": [
                     {
                         "product_page": "https://poker-sklep.pl/pl/kategorie-produktow/193-poker-brat-pl-phil-hellmuth.html",
+                        "images": [
+                            {
+                                "url": "https://poker-sklep.pl/536-large_default/poker-brat-pl-phil-hellmuth.jpg",
+                                "local_path": "images/536-large_default_poker-brat-pl-phil-hellmuth.jpg"
+                            }
+                        ],
                         "name": "Poker Brat PL - Phil Hellmuth",
                         "price": 109.0,
                         "short_description": "Autobiografia najlepszego pokerzysty świata.",
@@ -876,6 +1546,7 @@
                     },
                     {
                         "product_page": "https://poker-sklep.pl/pl/kategorie-produktow/195-the-mental-game-of-poker-jared-tendler-pl.html",
+                        "images": [],
                         "name": "",
                         "price": null,
                         "short_description": "",
@@ -886,6 +1557,12 @@
                     },
                     {
                         "product_page": "https://poker-sklep.pl/pl/kategorie-produktow/192-mit-pokerowego-talentu.html",
+                        "images": [
+                            {
+                                "url": "https://poker-sklep.pl/535-large_default/mit-pokerowego-talentu.jpg",
+                                "local_path": "images/535-large_default_mit-pokerowego-talentu.jpg"
+                            }
+                        ],
                         "name": "Mit pokerowego talentu",
                         "price": 79.0,
                         "short_description": "Dlaczego każdy może zostać świetnym pokerzystą.",
@@ -896,6 +1573,12 @@
                     },
                     {
                         "product_page": "https://poker-sklep.pl/pl/kategorie-produktow/194-doskonalosc-w-no-limit-holdem-jonathan-little-pl.html",
+                        "images": [
+                            {
+                                "url": "https://poker-sklep.pl/537-large_default/doskonalosc-w-no-limit-holdem-jonathan-little-pl.jpg",
+                                "local_path": "images/537-large_default_doskonalosc-w-no-limit-holdem-jonathan-little-pl.jpg"
+                            }
+                        ],
                         "name": "Doskonałość w No-Limit Holdem  – Jonathan Little PL",
                         "price": 99.0,
                         "short_description": "Jeśli mielibyście przeczytać tylko jedną aktualną książkę o pokerze, to jest właśnie ta pozycja.",
@@ -906,6 +1589,12 @@
                     },
                     {
                         "product_page": "https://poker-sklep.pl/pl/kategorie-produktow/189-blefy-ksiazka-pl.html",
+                        "images": [
+                            {
+                                "url": "https://poker-sklep.pl/520-large_default/blefy-ksiazka-pl.jpg",
+                                "local_path": "images/520-large_default_blefy-ksiazka-pl.jpg"
+                            }
+                        ],
                         "name": "Blefy - Książka PL",
                         "price": 89.0,
                         "short_description": "",
@@ -916,6 +1605,12 @@
                     },
                     {
                         "product_page": "https://poker-sklep.pl/pl/kategorie-produktow/187-mental-edge-poker-pl.html",
+                        "images": [
+                            {
+                                "url": "https://poker-sklep.pl/516-large_default/mental-edge-poker-pl.jpg",
+                                "local_path": "images/516-large_default_mental-edge-poker-pl.jpg"
+                            }
+                        ],
                         "name": "Mental Edge Poker PL",
                         "price": 89.0,
                         "short_description": "Wykorzystanie psychologii i profesjonalnego podejścia w budowaniu trwałejprzewagiw grze.",
@@ -926,6 +1621,12 @@
                     },
                     {
                         "product_page": "https://poker-sklep.pl/pl/kategorie-produktow/186-moorman-s-book-of-poker-pl.html",
+                        "images": [
+                            {
+                                "url": "https://poker-sklep.pl/515-large_default/moorman-s-book-of-poker-pl.jpg",
+                                "local_path": "images/515-large_default_moorman-s-book-of-poker-pl.jpg"
+                            }
+                        ],
                         "name": "Moorman's Book of Poker PL",
                         "price": 89.0,
                         "short_description": "Przedmowę do książki napisał słynny Doyle Brunson!",
@@ -936,6 +1637,12 @@
                     },
                     {
                         "product_page": "https://poker-sklep.pl/pl/ksiazki-pokerowe/16-small-stakes-no-limit-hold-em-.html",
+                        "images": [
+                            {
+                                "url": "https://poker-sklep.pl/116-large_default/small-stakes-no-limit-hold-em-.jpg",
+                                "local_path": "images/116-large_default_small-stakes-no-limit-hold-em-.jpg"
+                            }
+                        ],
                         "name": "Small Stakes No-Limit Hold'em",
                         "price": 99.0,
                         "short_description": "Small Stakes No-Limit Hold’em PL–Ed Miller, Sunny Mehta, Matt Flynn",
@@ -958,6 +1665,16 @@
                 "products": [
                     {
                         "product_page": "https://poker-sklep.pl/pl/kategorie-produktow/169-personalizowany-stol-do-pokera.html",
+                        "images": [
+                            {
+                                "url": "https://poker-sklep.pl/480-large_default/personalizowany-stol-do-pokera.jpg",
+                                "local_path": "images/480-large_default_personalizowany-stol-do-pokera.jpg"
+                            },
+                            {
+                                "url": "https://poker-sklep.pl/477-large_default/personalizowany-stol-do-pokera.jpg",
+                                "local_path": "images/477-large_default_personalizowany-stol-do-pokera.jpg"
+                            }
+                        ],
                         "name": "Personalizowany stół do pokera",
                         "price": 850.0,
                         "short_description": "Stwórz swój własny stół do pokera!",
@@ -968,6 +1685,16 @@
                     },
                     {
                         "product_page": "https://poker-sklep.pl/pl/kategorie-produktow/170-121-blat-pokerowy-8-stanowisk-niebieski.html",
+                        "images": [
+                            {
+                                "url": "https://poker-sklep.pl/488-large_default/blat-pokerowy-8-stanowisk-niebieski.jpg",
+                                "local_path": "images/488-large_default_blat-pokerowy-8-stanowisk-niebieski.jpg"
+                            },
+                            {
+                                "url": "https://poker-sklep.pl/489-large_default/blat-pokerowy-8-stanowisk-niebieski.jpg",
+                                "local_path": "images/489-large_default_blat-pokerowy-8-stanowisk-niebieski.jpg"
+                            }
+                        ],
                         "name": "Blat pokerowy 8 stanowisk- niebieski",
                         "price": 369.0,
                         "short_description": "Już nie tylko karty na stół",
@@ -981,6 +1708,16 @@
                     },
                     {
                         "product_page": "https://poker-sklep.pl/pl/stoly-do-pokera/97-blat-do-pokera-nakladka.html",
+                        "images": [
+                            {
+                                "url": "https://poker-sklep.pl/275-large_default/blat-do-pokera-nakladka.jpg",
+                                "local_path": "images/275-large_default_blat-do-pokera-nakladka.jpg"
+                            },
+                            {
+                                "url": "https://poker-sklep.pl/276-large_default/blat-do-pokera-nakladka.jpg",
+                                "local_path": "images/276-large_default_blat-do-pokera-nakladka.jpg"
+                            }
+                        ],
                         "name": "Blat do pokera NAKŁADKA",
                         "price": 259.0,
                         "short_description": "Duża składana mata do gry w pokera lub black jack'a.",
@@ -991,6 +1728,16 @@
                     },
                     {
                         "product_page": "https://poker-sklep.pl/pl/stoly-do-pokera/98-blat-do-pokera-octagon.html",
+                        "images": [
+                            {
+                                "url": "https://poker-sklep.pl/532-large_default/blat-do-pokera-octagon.jpg",
+                                "local_path": "images/532-large_default_blat-do-pokera-octagon.jpg"
+                            },
+                            {
+                                "url": "https://poker-sklep.pl/533-large_default/blat-do-pokera-octagon.jpg",
+                                "local_path": "images/533-large_default_blat-do-pokera-octagon.jpg"
+                            }
+                        ],
                         "name": "Blat do pokera OCTAGON",
                         "price": 239.0,
                         "short_description": "Składany Blat do pokera w kształcie Octagonu.",
@@ -1013,6 +1760,16 @@
                 "products": [
                     {
                         "product_page": "https://poker-sklep.pl/pl/kategorie-produktow/169-personalizowany-stol-do-pokera.html",
+                        "images": [
+                            {
+                                "url": "https://poker-sklep.pl/480-large_default/personalizowany-stol-do-pokera.jpg",
+                                "local_path": "images/480-large_default_personalizowany-stol-do-pokera.jpg"
+                            },
+                            {
+                                "url": "https://poker-sklep.pl/477-large_default/personalizowany-stol-do-pokera.jpg",
+                                "local_path": "images/477-large_default_personalizowany-stol-do-pokera.jpg"
+                            }
+                        ],
                         "name": "Personalizowany stół do pokera",
                         "price": 850.0,
                         "short_description": "Stwórz swój własny stół do pokera!",
@@ -1023,6 +1780,12 @@
                     },
                     {
                         "product_page": "https://poker-sklep.pl/pl/kategorie-produktow/158-card-guard-ruletka.html",
+                        "images": [
+                            {
+                                "url": "https://poker-sklep.pl/439-large_default/card-guard-ruletka.jpg",
+                                "local_path": "images/439-large_default_card-guard-ruletka.jpg"
+                            }
+                        ],
                         "name": "Card Guard RULETKA",
                         "price": 99.0,
                         "short_description": "",
@@ -1033,6 +1796,12 @@
                     },
                     {
                         "product_page": "https://poker-sklep.pl/pl/akcesoria-pokerowe/128-sukno-karciane-120cm-x-120cm.html",
+                        "images": [
+                            {
+                                "url": "https://poker-sklep.pl/364-large_default/sukno-karciane-120cm-x-120cm.jpg",
+                                "local_path": "images/364-large_default_sukno-karciane-120cm-x-120cm.jpg"
+                            }
+                        ],
                         "name": "Sukno Karciane 120cm x 120cm",
                         "price": 119.0,
                         "short_description": "",
@@ -1043,6 +1812,12 @@
                     },
                     {
                         "product_page": "https://poker-sklep.pl/pl/akcesoria-pokerowe/171-mata-pokerowa-cartamundi.html",
+                        "images": [
+                            {
+                                "url": "https://poker-sklep.pl/490-large_default/mata-pokerowa-cartamundi.jpg",
+                                "local_path": "images/490-large_default_mata-pokerowa-cartamundi.jpg"
+                            }
+                        ],
                         "name": "Mata pokerowa Cartamundi",
                         "price": 59.0,
                         "short_description": "Cartamudni Poker Carpet",
@@ -1053,6 +1828,12 @@
                     },
                     {
                         "product_page": "https://poker-sklep.pl/pl/akcesoria-pokerowe/153-card-protector-shark.html",
+                        "images": [
+                            {
+                                "url": "https://poker-sklep.pl/420-large_default/card-protector-shark.jpg",
+                                "local_path": "images/420-large_default_card-protector-shark.jpg"
+                            }
+                        ],
                         "name": "Card Protector - SHARK",
                         "price": 99.0,
                         "short_description": "Chroń swoje karty!",
@@ -1063,6 +1844,16 @@
                     },
                     {
                         "product_page": "https://poker-sklep.pl/pl/kategorie-produktow/151-ultimate-dealer-button.html",
+                        "images": [
+                            {
+                                "url": "https://poker-sklep.pl/412-large_default/ultimate-dealer-button.jpg",
+                                "local_path": "images/412-large_default_ultimate-dealer-button.jpg"
+                            },
+                            {
+                                "url": "https://poker-sklep.pl/413-large_default/ultimate-dealer-button.jpg",
+                                "local_path": "images/413-large_default_ultimate-dealer-button.jpg"
+                            }
+                        ],
                         "name": "Elektroniczny Dealer Button",
                         "price": 129.0,
                         "short_description": "Nadszedł kres pokerowym stoperom, minutnikom, klepsydrom i skomplikowanym programom turniejowym.",
@@ -1073,6 +1864,12 @@
                     },
                     {
                         "product_page": "https://poker-sklep.pl/pl/akcesoria-pokerowe/127-sukno-karciane-120cm-x-180cm.html",
+                        "images": [
+                            {
+                                "url": "https://poker-sklep.pl/363-large_default/sukno-karciane-120cm-x-180cm.jpg",
+                                "local_path": "images/363-large_default_sukno-karciane-120cm-x-180cm.jpg"
+                            }
+                        ],
                         "name": "Sukno Karciane 120cm x 180cm",
                         "price": 139.0,
                         "short_description": "",
@@ -1083,6 +1880,12 @@
                     },
                     {
                         "product_page": "https://poker-sklep.pl/pl/kategorie-produktow/183-podkladka-pod-mysz.html",
+                        "images": [
+                            {
+                                "url": "https://poker-sklep.pl/511-large_default/podkladka-pod-mysz.jpg",
+                                "local_path": "images/511-large_default_podkladka-pod-mysz.jpg"
+                            }
+                        ],
                         "name": "Podkładka pod mysz",
                         "price": 59.0,
                         "short_description": "",
@@ -1093,6 +1896,16 @@
                     },
                     {
                         "product_page": "https://poker-sklep.pl/pl/kategorie-produktow/170-121-blat-pokerowy-8-stanowisk-niebieski.html",
+                        "images": [
+                            {
+                                "url": "https://poker-sklep.pl/488-large_default/blat-pokerowy-8-stanowisk-niebieski.jpg",
+                                "local_path": "images/488-large_default_blat-pokerowy-8-stanowisk-niebieski.jpg"
+                            },
+                            {
+                                "url": "https://poker-sklep.pl/489-large_default/blat-pokerowy-8-stanowisk-niebieski.jpg",
+                                "local_path": "images/489-large_default_blat-pokerowy-8-stanowisk-niebieski.jpg"
+                            }
+                        ],
                         "name": "Blat pokerowy 8 stanowisk- niebieski",
                         "price": 369.0,
                         "short_description": "Już nie tylko karty na stół",
@@ -1106,6 +1919,12 @@
                     },
                     {
                         "product_page": "https://poker-sklep.pl/pl/akcesoria-pokerowe/129-skrzynka-na-450-zetonow.html",
+                        "images": [
+                            {
+                                "url": "https://poker-sklep.pl/365-large_default/skrzynka-na-450-zetonow.jpg",
+                                "local_path": "images/365-large_default_skrzynka-na-450-zetonow.jpg"
+                            }
+                        ],
                         "name": "Skrzynka na 450 żetonów",
                         "price": 69.0,
                         "short_description": "",
@@ -1116,6 +1935,12 @@
                     },
                     {
                         "product_page": "https://poker-sklep.pl/pl/fournier/86-sukno-pokerowe-nh-fournier.html",
+                        "images": [
+                            {
+                                "url": "https://poker-sklep.pl/239-large_default/sukno-pokerowe-nh-fournier.jpg",
+                                "local_path": "images/239-large_default_sukno-pokerowe-nh-fournier.jpg"
+                            }
+                        ],
                         "name": "Sukno pokerowe NH Fournier",
                         "price": 179.0,
                         "short_description": "Sukno pokerowe marki NH Fournier.",
@@ -1126,6 +1951,16 @@
                     },
                     {
                         "product_page": "https://poker-sklep.pl/pl/kategorie-produktow/173-spinki-do-mankietow-pokerowe.html",
+                        "images": [
+                            {
+                                "url": "https://poker-sklep.pl/493-large_default/spinki-do-mankietow-pokerowe.jpg",
+                                "local_path": "images/493-large_default_spinki-do-mankietow-pokerowe.jpg"
+                            },
+                            {
+                                "url": "https://poker-sklep.pl/494-large_default/spinki-do-mankietow-pokerowe.jpg",
+                                "local_path": "images/494-large_default_spinki-do-mankietow-pokerowe.jpg"
+                            }
+                        ],
                         "name": "Spinki do mankietów pokerowe",
                         "price": 129.0,
                         "short_description": "Niech szczęście Ci sprzyja za każdym razem gdy zakładasz koszulę.",
@@ -1136,6 +1971,12 @@
                     },
                     {
                         "product_page": "https://poker-sklep.pl/pl/kasyno/168-sukno-do-ruletki-i-pokera-modiano.html",
+                        "images": [
+                            {
+                                "url": "https://poker-sklep.pl/476-large_default/sukno-do-ruletki-i-pokera-modiano.jpg",
+                                "local_path": "images/476-large_default_sukno-do-ruletki-i-pokera-modiano.jpg"
+                            }
+                        ],
                         "name": "Sukno do ruletki i pokera MODIANO",
                         "price": 59.0,
                         "short_description": "Dwa sukna w cenie jednego!",
@@ -1146,6 +1987,12 @@
                     },
                     {
                         "product_page": "https://poker-sklep.pl/pl/akcesoria-pokerowe/140-walizka-na-1000-zetonow.html",
+                        "images": [
+                            {
+                                "url": "https://poker-sklep.pl/391-large_default/walizka-na-1000-zetonow.jpg",
+                                "local_path": "images/391-large_default_walizka-na-1000-zetonow.jpg"
+                            }
+                        ],
                         "name": "Walizka na 1000 żetonów",
                         "price": 149.0,
                         "short_description": "",
@@ -1156,6 +2003,16 @@
                     },
                     {
                         "product_page": "https://poker-sklep.pl/pl/karty-do-gry/132-final-table-black-deck.html",
+                        "images": [
+                            {
+                                "url": "https://poker-sklep.pl/372-large_default/final-table-black-deck.jpg",
+                                "local_path": "images/372-large_default_final-table-black-deck.jpg"
+                            },
+                            {
+                                "url": "https://poker-sklep.pl/373-large_default/final-table-black-deck.jpg",
+                                "local_path": "images/373-large_default_final-table-black-deck.jpg"
+                            }
+                        ],
                         "name": "Final Table - BLACK DECK",
                         "price": 21.99,
                         "short_description": "Carna talia kart Final Table.",
@@ -1166,6 +2023,12 @@
                     },
                     {
                         "product_page": "https://poker-sklep.pl/pl/akcesoria-pokerowe/126-dealer-buttons.html",
+                        "images": [
+                            {
+                                "url": "https://poker-sklep.pl/362-large_default/dealer-buttons.jpg",
+                                "local_path": "images/362-large_default_dealer-buttons.jpg"
+                            }
+                        ],
                         "name": "Dealer buttons",
                         "price": 19.99,
                         "short_description": "",
@@ -1176,6 +2039,16 @@
                     },
                     {
                         "product_page": "https://poker-sklep.pl/pl/stoly-do-pokera/97-blat-do-pokera-nakladka.html",
+                        "images": [
+                            {
+                                "url": "https://poker-sklep.pl/275-large_default/blat-do-pokera-nakladka.jpg",
+                                "local_path": "images/275-large_default_blat-do-pokera-nakladka.jpg"
+                            },
+                            {
+                                "url": "https://poker-sklep.pl/276-large_default/blat-do-pokera-nakladka.jpg",
+                                "local_path": "images/276-large_default_blat-do-pokera-nakladka.jpg"
+                            }
+                        ],
                         "name": "Blat do pokera NAKŁADKA",
                         "price": 259.0,
                         "short_description": "Duża składana mata do gry w pokera lub black jack'a.",
@@ -1186,6 +2059,12 @@
                     },
                     {
                         "product_page": "https://poker-sklep.pl/pl/akcesoria-pokerowe/134-dealer-button-.html",
+                        "images": [
+                            {
+                                "url": "https://poker-sklep.pl/379-large_default/dealer-button-.jpg",
+                                "local_path": "images/379-large_default_dealer-button-.jpg"
+                            }
+                        ],
                         "name": "Dealer button",
                         "price": 15.0,
                         "short_description": "",
@@ -1196,6 +2075,12 @@
                     },
                     {
                         "product_page": "https://poker-sklep.pl/pl/akcesoria-pokerowe/139-layout-poker-texas-holdem.html",
+                        "images": [
+                            {
+                                "url": "https://poker-sklep.pl/505-large_default/layout-poker-texas-holdem.jpg",
+                                "local_path": "images/505-large_default_layout-poker-texas-holdem.jpg"
+                            }
+                        ],
                         "name": "Layout Poker Texas Holdem",
                         "price": 89.0,
                         "short_description": "Wykonana z filcu mata do pokera.",
@@ -1206,6 +2091,16 @@
                     },
                     {
                         "product_page": "https://poker-sklep.pl/pl/fournier/85-mata-fournier.html",
+                        "images": [
+                            {
+                                "url": "https://poker-sklep.pl/237-large_default/mata-fournier.jpg",
+                                "local_path": "images/237-large_default_mata-fournier.jpg"
+                            },
+                            {
+                                "url": "https://poker-sklep.pl/238-large_default/mata-fournier.jpg",
+                                "local_path": "images/238-large_default_mata-fournier.jpg"
+                            }
+                        ],
                         "name": "Mata Fournier",
                         "price": 35.0,
                         "short_description": "Mata karciana marki NH Fournier.",
@@ -1216,6 +2111,16 @@
                     },
                     {
                         "product_page": "https://poker-sklep.pl/pl/stoly-do-pokera/98-blat-do-pokera-octagon.html",
+                        "images": [
+                            {
+                                "url": "https://poker-sklep.pl/532-large_default/blat-do-pokera-octagon.jpg",
+                                "local_path": "images/532-large_default_blat-do-pokera-octagon.jpg"
+                            },
+                            {
+                                "url": "https://poker-sklep.pl/533-large_default/blat-do-pokera-octagon.jpg",
+                                "local_path": "images/533-large_default_blat-do-pokera-octagon.jpg"
+                            }
+                        ],
                         "name": "Blat do pokera OCTAGON",
                         "price": 239.0,
                         "short_description": "Składany Blat do pokera w kształcie Octagonu.",
@@ -1226,6 +2131,12 @@
                     },
                     {
                         "product_page": "https://poker-sklep.pl/pl/zetony/185-123-plakietka-pokerowa.html",
+                        "images": [
+                            {
+                                "url": "https://poker-sklep.pl/514-large_default/plakietka-pokerowa.jpg",
+                                "local_path": "images/514-large_default_plakietka-pokerowa.jpg"
+                            }
+                        ],
                         "name": "Plakietka pokerowa",
                         "price": 3.9,
                         "short_description": "",
@@ -1242,6 +2153,16 @@
                     },
                     {
                         "product_page": "https://poker-sklep.pl/pl/karciaki-i-tasowniki/69-card-shuetasownik-piatnik.html",
+                        "images": [
+                            {
+                                "url": "https://poker-sklep.pl/178-large_default/card-shuetasownik-piatnik.jpg",
+                                "local_path": "images/178-large_default_card-shuetasownik-piatnik.jpg"
+                            },
+                            {
+                                "url": "https://poker-sklep.pl/179-large_default/card-shuetasownik-piatnik.jpg",
+                                "local_path": "images/179-large_default_card-shuetasownik-piatnik.jpg"
+                            }
+                        ],
                         "name": "Card Shue/Tasownik Piatnik",
                         "price": 189.0,
                         "short_description": "Automatyczny podajnik i tasownik marki Piatnik.2 in 1.",
@@ -1252,6 +2173,12 @@
                     },
                     {
                         "product_page": "https://poker-sklep.pl/pl/kategorie-produktow/178-clear-plastic-deck-case.html",
+                        "images": [
+                            {
+                                "url": "https://poker-sklep.pl/501-large_default/clear-plastic-deck-case.jpg",
+                                "local_path": "images/501-large_default_clear-plastic-deck-case.jpg"
+                            }
+                        ],
                         "name": "Clear Plastic Deck Case",
                         "price": 9.9,
                         "short_description": "Każdy sportowiec nosi pokrowiec.",
@@ -1274,6 +2201,12 @@
                 "products": [
                     {
                         "product_page": "https://poker-sklep.pl/pl/kategorie-produktow/158-card-guard-ruletka.html",
+                        "images": [
+                            {
+                                "url": "https://poker-sklep.pl/439-large_default/card-guard-ruletka.jpg",
+                                "local_path": "images/439-large_default_card-guard-ruletka.jpg"
+                            }
+                        ],
                         "name": "Card Guard RULETKA",
                         "price": 99.0,
                         "short_description": "",
@@ -1284,6 +2217,16 @@
                     },
                     {
                         "product_page": "https://poker-sklep.pl/pl/karciaki-i-tasowniki/83-karciarka-blue-2-talie.html",
+                        "images": [
+                            {
+                                "url": "https://poker-sklep.pl/227-large_default/karciarka-blue-2-talie.jpg",
+                                "local_path": "images/227-large_default_karciarka-blue-2-talie.jpg"
+                            },
+                            {
+                                "url": "https://poker-sklep.pl/228-large_default/karciarka-blue-2-talie.jpg",
+                                "local_path": "images/228-large_default_karciarka-blue-2-talie.jpg"
+                            }
+                        ],
                         "name": "Karciarka BLUE - 2 talie",
                         "price": 29.0,
                         "short_description": "Ręcznie robiona karciarka na dwie talie.",
@@ -1294,6 +2237,12 @@
                     },
                     {
                         "product_page": "https://poker-sklep.pl/pl/akcesoria-pokerowe/153-card-protector-shark.html",
+                        "images": [
+                            {
+                                "url": "https://poker-sklep.pl/420-large_default/card-protector-shark.jpg",
+                                "local_path": "images/420-large_default_card-protector-shark.jpg"
+                            }
+                        ],
                         "name": "Card Protector - SHARK",
                         "price": 99.0,
                         "short_description": "Chroń swoje karty!",
@@ -1304,6 +2253,12 @@
                     },
                     {
                         "product_page": "https://poker-sklep.pl/pl/kategorie-produktow/183-podkladka-pod-mysz.html",
+                        "images": [
+                            {
+                                "url": "https://poker-sklep.pl/511-large_default/podkladka-pod-mysz.jpg",
+                                "local_path": "images/511-large_default_podkladka-pod-mysz.jpg"
+                            }
+                        ],
                         "name": "Podkładka pod mysz",
                         "price": 59.0,
                         "short_description": "",
@@ -1314,6 +2269,16 @@
                     },
                     {
                         "product_page": "https://poker-sklep.pl/pl/kategorie-produktow/173-spinki-do-mankietow-pokerowe.html",
+                        "images": [
+                            {
+                                "url": "https://poker-sklep.pl/493-large_default/spinki-do-mankietow-pokerowe.jpg",
+                                "local_path": "images/493-large_default_spinki-do-mankietow-pokerowe.jpg"
+                            },
+                            {
+                                "url": "https://poker-sklep.pl/494-large_default/spinki-do-mankietow-pokerowe.jpg",
+                                "local_path": "images/494-large_default_spinki-do-mankietow-pokerowe.jpg"
+                            }
+                        ],
                         "name": "Spinki do mankietów pokerowe",
                         "price": 129.0,
                         "short_description": "Niech szczęście Ci sprzyja za każdym razem gdy zakładasz koszulę.",
@@ -1324,6 +2289,12 @@
                     },
                     {
                         "product_page": "https://poker-sklep.pl/pl/gadzety/46-poplniczka-king.html",
+                        "images": [
+                            {
+                                "url": "https://poker-sklep.pl/117-large_default/poplniczka-king.jpg",
+                                "local_path": "images/117-large_default_poplniczka-king.jpg"
+                            }
+                        ],
                         "name": "Poplniczka KING",
                         "price": 19.99,
                         "short_description": "Popielniczka KING",
@@ -1334,6 +2305,16 @@
                     },
                     {
                         "product_page": "https://poker-sklep.pl/pl/kategorie-produktow/94-brelok.html",
+                        "images": [
+                            {
+                                "url": "https://poker-sklep.pl/269-large_default/brelok.jpg",
+                                "local_path": "images/269-large_default_brelok.jpg"
+                            },
+                            {
+                                "url": "https://poker-sklep.pl/270-large_default/brelok.jpg",
+                                "local_path": "images/270-large_default_brelok.jpg"
+                            }
+                        ],
                         "name": "Brelok pokerowy",
                         "price": 19.99,
                         "short_description": "",
@@ -1344,6 +2325,12 @@
                     },
                     {
                         "product_page": "https://poker-sklep.pl/pl/kategorie-produktow/178-clear-plastic-deck-case.html",
+                        "images": [
+                            {
+                                "url": "https://poker-sklep.pl/501-large_default/clear-plastic-deck-case.jpg",
+                                "local_path": "images/501-large_default_clear-plastic-deck-case.jpg"
+                            }
+                        ],
                         "name": "Clear Plastic Deck Case",
                         "price": 9.9,
                         "short_description": "Każdy sportowiec nosi pokrowiec.",
@@ -1354,6 +2341,12 @@
                     },
                     {
                         "product_page": "https://poker-sklep.pl/pl/kategorie-produktow/177-skorzane-etui-na-karty.html",
+                        "images": [
+                            {
+                                "url": "https://poker-sklep.pl/500-large_default/skorzane-etui-na-karty.jpg",
+                                "local_path": "images/500-large_default_skorzane-etui-na-karty.jpg"
+                            }
+                        ],
                         "name": "Skórzane etui na karty",
                         "price": 39.0,
                         "short_description": "Każdy sportowiec nosi pokrowiec.",
@@ -1376,6 +2369,12 @@
                 "products": [
                     {
                         "product_page": "https://poker-sklep.pl/pl/final-table/110-bluza-final-table-unisex.html",
+                        "images": [
+                            {
+                                "url": "https://poker-sklep.pl/332-large_default/bluza-final-table-unisex.jpg",
+                                "local_path": "images/332-large_default_bluza-final-table-unisex.jpg"
+                            }
+                        ],
                         "name": "Bluza Final Table - Unisex",
                         "price": 179.0,
                         "short_description": "Wysokiej jakości bluza Final Table.",
@@ -1386,6 +2385,16 @@
                     },
                     {
                         "product_page": "https://poker-sklep.pl/pl/final-table/107-final-table-malfini.html",
+                        "images": [
+                            {
+                                "url": "https://poker-sklep.pl/317-large_default/final-table-malfini.jpg",
+                                "local_path": "images/317-large_default_final-table-malfini.jpg"
+                            },
+                            {
+                                "url": "https://poker-sklep.pl/318-large_default/final-table-malfini.jpg",
+                                "local_path": "images/318-large_default_final-table-malfini.jpg"
+                            }
+                        ],
                         "name": "Final Table - Malfini",
                         "price": 199.0,
                         "short_description": "Wysokiej jakości bluza sygnowa logiem Final Table.",
@@ -1396,6 +2405,16 @@
                     },
                     {
                         "product_page": "https://poker-sklep.pl/pl/final-table/106-96-bluza-final-table.html",
+                        "images": [
+                            {
+                                "url": "https://poker-sklep.pl/313-large_default/bluza-final-table.jpg",
+                                "local_path": "images/313-large_default_bluza-final-table.jpg"
+                            },
+                            {
+                                "url": "https://poker-sklep.pl/314-large_default/bluza-final-table.jpg",
+                                "local_path": "images/314-large_default_bluza-final-table.jpg"
+                            }
+                        ],
                         "name": "Bluza Final Table",
                         "price": 189.0,
                         "short_description": "Wysokiej jakości bluza Final Table.",
@@ -1421,6 +2440,16 @@
                 "products": [
                     {
                         "product_page": "https://poker-sklep.pl/pl/karciaki-i-tasowniki/83-karciarka-blue-2-talie.html",
+                        "images": [
+                            {
+                                "url": "https://poker-sklep.pl/227-large_default/karciarka-blue-2-talie.jpg",
+                                "local_path": "images/227-large_default_karciarka-blue-2-talie.jpg"
+                            },
+                            {
+                                "url": "https://poker-sklep.pl/228-large_default/karciarka-blue-2-talie.jpg",
+                                "local_path": "images/228-large_default_karciarka-blue-2-talie.jpg"
+                            }
+                        ],
                         "name": "Karciarka BLUE - 2 talie",
                         "price": 29.0,
                         "short_description": "Ręcznie robiona karciarka na dwie talie.",
@@ -1431,6 +2460,16 @@
                     },
                     {
                         "product_page": "https://poker-sklep.pl/pl/karciaki-i-tasowniki/179-karciarka-premium-3-kolory.html",
+                        "images": [
+                            {
+                                "url": "https://poker-sklep.pl/502-large_default/karciarka-premium-3-kolory.jpg",
+                                "local_path": "images/502-large_default_karciarka-premium-3-kolory.jpg"
+                            },
+                            {
+                                "url": "https://poker-sklep.pl/503-large_default/karciarka-premium-3-kolory.jpg",
+                                "local_path": "images/503-large_default_karciarka-premium-3-kolory.jpg"
+                            }
+                        ],
                         "name": "Karciarka PREMIUM - 3 kolory",
                         "price": 45.0,
                         "short_description": "Dostępna w kolorze białym, czarnym i naturalnego drewna.",
@@ -1441,6 +2480,16 @@
                     },
                     {
                         "product_page": "https://poker-sklep.pl/pl/karciaki-i-tasowniki/53-2-talie-karciarka-filipek.html",
+                        "images": [
+                            {
+                                "url": "https://poker-sklep.pl/135-large_default/2-talie-karciarka-filipek.jpg",
+                                "local_path": "images/135-large_default_2-talie-karciarka-filipek.jpg"
+                            },
+                            {
+                                "url": "https://poker-sklep.pl/136-large_default/2-talie-karciarka-filipek.jpg",
+                                "local_path": "images/136-large_default_2-talie-karciarka-filipek.jpg"
+                            }
+                        ],
                         "name": "2 Talie - Karciarka Filipek",
                         "price": 15.0,
                         "short_description": "Ręcznie robiona karciarka na dwie talie.",
@@ -1451,6 +2500,16 @@
                     },
                     {
                         "product_page": "https://poker-sklep.pl/pl/karciaki-i-tasowniki/69-card-shuetasownik-piatnik.html",
+                        "images": [
+                            {
+                                "url": "https://poker-sklep.pl/178-large_default/card-shuetasownik-piatnik.jpg",
+                                "local_path": "images/178-large_default_card-shuetasownik-piatnik.jpg"
+                            },
+                            {
+                                "url": "https://poker-sklep.pl/179-large_default/card-shuetasownik-piatnik.jpg",
+                                "local_path": "images/179-large_default_card-shuetasownik-piatnik.jpg"
+                            }
+                        ],
                         "name": "Card Shue/Tasownik Piatnik",
                         "price": 189.0,
                         "short_description": "Automatyczny podajnik i tasownik marki Piatnik.2 in 1.",
@@ -1461,6 +2520,12 @@
                     },
                     {
                         "product_page": "https://poker-sklep.pl/pl/kategorie-produktow/178-clear-plastic-deck-case.html",
+                        "images": [
+                            {
+                                "url": "https://poker-sklep.pl/501-large_default/clear-plastic-deck-case.jpg",
+                                "local_path": "images/501-large_default_clear-plastic-deck-case.jpg"
+                            }
+                        ],
                         "name": "Clear Plastic Deck Case",
                         "price": 9.9,
                         "short_description": "Każdy sportowiec nosi pokrowiec.",
@@ -1471,6 +2536,12 @@
                     },
                     {
                         "product_page": "https://poker-sklep.pl/pl/kategorie-produktow/177-skorzane-etui-na-karty.html",
+                        "images": [
+                            {
+                                "url": "https://poker-sklep.pl/500-large_default/skorzane-etui-na-karty.jpg",
+                                "local_path": "images/500-large_default_skorzane-etui-na-karty.jpg"
+                            }
+                        ],
                         "name": "Skórzane etui na karty",
                         "price": 39.0,
                         "short_description": "Każdy sportowiec nosi pokrowiec.",
@@ -1493,6 +2564,12 @@
                 "products": [
                     {
                         "product_page": "https://poker-sklep.pl/pl/trofeastatuetki/29-statuetka-king.html",
+                        "images": [
+                            {
+                                "url": "https://poker-sklep.pl/91-large_default/statuetka-king.jpg",
+                                "local_path": "images/91-large_default_statuetka-king.jpg"
+                            }
+                        ],
                         "name": "Statuetka KING",
                         "price": 79.0,
                         "short_description": "Statuetka poker/brydż",
@@ -1503,6 +2580,12 @@
                     },
                     {
                         "product_page": "https://poker-sklep.pl/pl/trofeastatuetki/25-stauetka-donk.html",
+                        "images": [
+                            {
+                                "url": "https://poker-sklep.pl/87-large_default/stauetka-donk.jpg",
+                                "local_path": "images/87-large_default_stauetka-donk.jpg"
+                            }
+                        ],
                         "name": "Stauetka DONK",
                         "price": 59.0,
                         "short_description": "Statuetka pokerowa - DONK",
@@ -1513,6 +2596,12 @@
                     },
                     {
                         "product_page": "https://poker-sklep.pl/pl/trofeastatuetki/28-statuetka-gold.html",
+                        "images": [
+                            {
+                                "url": "https://poker-sklep.pl/90-large_default/statuetka-gold.jpg",
+                                "local_path": "images/90-large_default_statuetka-gold.jpg"
+                            }
+                        ],
                         "name": "Statuetka GOLD",
                         "price": 35.0,
                         "short_description": "statuetka pokerowa GOLD",
@@ -1523,6 +2612,12 @@
                     },
                     {
                         "product_page": "https://poker-sklep.pl/pl/trofeastatuetki/30-statuetka-nuts.html",
+                        "images": [
+                            {
+                                "url": "https://poker-sklep.pl/92-large_default/statuetka-nuts.jpg",
+                                "local_path": "images/92-large_default_statuetka-nuts.jpg"
+                            }
+                        ],
                         "name": "Statuetka NUTS",
                         "price": 79.0,
                         "short_description": "Statuetka NUTS",
@@ -1533,6 +2628,12 @@
                     },
                     {
                         "product_page": "https://poker-sklep.pl/pl/trofeastatuetki/182-118-statuetka-poker.html",
+                        "images": [
+                            {
+                                "url": "https://poker-sklep.pl/510-large_default/statuetka-poker.jpg",
+                                "local_path": "images/510-large_default_statuetka-poker.jpg"
+                            }
+                        ],
                         "name": "Statuetka POKER",
                         "price": 49.0,
                         "short_description": "",
@@ -1547,6 +2648,12 @@
                     },
                     {
                         "product_page": "https://poker-sklep.pl/pl/trofeastatuetki/26-statuetka-cards.html",
+                        "images": [
+                            {
+                                "url": "https://poker-sklep.pl/88-large_default/statuetka-cards.jpg",
+                                "local_path": "images/88-large_default_statuetka-cards.jpg"
+                            }
+                        ],
                         "name": "Statuetka CARDS",
                         "price": 39.0,
                         "short_description": "Statuetka CARDS",
@@ -1569,6 +2676,16 @@
                 "products": [
                     {
                         "product_page": "https://poker-sklep.pl/pl/kategorie-produktow/99-90-bicycle-propeek-poker.html",
+                        "images": [
+                            {
+                                "url": "https://poker-sklep.pl/281-large_default/bicycle-propeek-poker.jpg",
+                                "local_path": "images/281-large_default_bicycle-propeek-poker.jpg"
+                            },
+                            {
+                                "url": "https://poker-sklep.pl/282-large_default/bicycle-propeek-poker.jpg",
+                                "local_path": "images/282-large_default_bicycle-propeek-poker.jpg"
+                            }
+                        ],
                         "name": "Bicycle ProPeek Poker",
                         "price": 22.99,
                         "short_description": "Podwójny Indeks !",
@@ -1582,6 +2699,12 @@
                     },
                     {
                         "product_page": "https://poker-sklep.pl/pl/bicycle/40-bicycle-rider-back-jumbo.html",
+                        "images": [
+                            {
+                                "url": "https://poker-sklep.pl/103-large_default/bicycle-rider-back-jumbo.jpg",
+                                "local_path": "images/103-large_default_bicycle-rider-back-jumbo.jpg"
+                            }
+                        ],
                         "name": "Bicycle Rider Back JUMBO",
                         "price": 15.99,
                         "short_description": "Bicycle Rider Back JUMBO",
@@ -1592,6 +2715,16 @@
                     },
                     {
                         "product_page": "https://poker-sklep.pl/pl/bicycle/41-42-bicycle-wsop.html",
+                        "images": [
+                            {
+                                "url": "https://poker-sklep.pl/104-large_default/bicycle-wsop.jpg",
+                                "local_path": "images/104-large_default_bicycle-wsop.jpg"
+                            },
+                            {
+                                "url": "https://poker-sklep.pl/105-large_default/bicycle-wsop.jpg",
+                                "local_path": "images/105-large_default_bicycle-wsop.jpg"
+                            }
+                        ],
                         "name": "Bicycle WSOP",
                         "price": 18.99,
                         "short_description": "Talia kart Bicycle World Series of Poker",
@@ -1605,6 +2738,16 @@
                     },
                     {
                         "product_page": "https://poker-sklep.pl/pl/bicycle/2-1-bicycle-prestige-100-plastik.html",
+                        "images": [
+                            {
+                                "url": "https://poker-sklep.pl/48-large_default/bicycle-prestige-100-plastik.jpg",
+                                "local_path": "images/48-large_default_bicycle-prestige-100-plastik.jpg"
+                            },
+                            {
+                                "url": "https://poker-sklep.pl/49-large_default/bicycle-prestige-100-plastik.jpg",
+                                "local_path": "images/49-large_default_bicycle-prestige-100-plastik.jpg"
+                            }
+                        ],
                         "name": "Bicycle Prestige 100% PLASTIK",
                         "price": 37.0,
                         "short_description": "Karty Bicycle® PRESTIGE JUMBO Index RIDER BACK Najsłynniejsze karty świata w końcu w wersji 100% plastikowej. Rozmiar pokerowy ( 63 mm x 88 mm) kolor Red lub Blue JUMBO Indeks na przeciwległych rogach awersu.",
@@ -1618,6 +2761,16 @@
                     },
                     {
                         "product_page": "https://poker-sklep.pl/pl/bicycle/14-guardians-bicycle.html",
+                        "images": [
+                            {
+                                "url": "https://poker-sklep.pl/52-large_default/guardians-bicycle.jpg",
+                                "local_path": "images/52-large_default_guardians-bicycle.jpg"
+                            },
+                            {
+                                "url": "https://poker-sklep.pl/53-large_default/guardians-bicycle.jpg",
+                                "local_path": "images/53-large_default_guardians-bicycle.jpg"
+                            }
+                        ],
                         "name": "Guardians - Bicycle",
                         "price": 23.99,
                         "short_description": "Karty Bicycle Guardians",
@@ -1628,6 +2781,16 @@
                     },
                     {
                         "product_page": "https://poker-sklep.pl/pl/bicycle/13-bicycle-standard-rider-back.html",
+                        "images": [
+                            {
+                                "url": "https://poker-sklep.pl/50-large_default/bicycle-standard-rider-back.jpg",
+                                "local_path": "images/50-large_default_bicycle-standard-rider-back.jpg"
+                            },
+                            {
+                                "url": "https://poker-sklep.pl/51-large_default/bicycle-standard-rider-back.jpg",
+                                "local_path": "images/51-large_default_bicycle-standard-rider-back.jpg"
+                            }
+                        ],
                         "name": "Bicycle Standard Rider Back",
                         "price": 14.99,
                         "short_description": "Talia 55 kart w rozmiarze pokerowym 63 x 89mm (52 + 2 jokery + info card) Standardowy indeks na przeciwległych rogach awersu. Talia nowa, zapakowana, sygnowana logiem Bicycle. Dostępne w kolorze czerwonym i niebieskim.",
@@ -1650,6 +2813,12 @@
                 "products": [
                     {
                         "product_page": "https://poker-sklep.pl/pl/final-table/110-bluza-final-table-unisex.html",
+                        "images": [
+                            {
+                                "url": "https://poker-sklep.pl/332-large_default/bluza-final-table-unisex.jpg",
+                                "local_path": "images/332-large_default_bluza-final-table-unisex.jpg"
+                            }
+                        ],
                         "name": "Bluza Final Table - Unisex",
                         "price": 179.0,
                         "short_description": "Wysokiej jakości bluza Final Table.",
@@ -1660,6 +2829,16 @@
                     },
                     {
                         "product_page": "https://poker-sklep.pl/pl/final-table/107-final-table-malfini.html",
+                        "images": [
+                            {
+                                "url": "https://poker-sklep.pl/317-large_default/final-table-malfini.jpg",
+                                "local_path": "images/317-large_default_final-table-malfini.jpg"
+                            },
+                            {
+                                "url": "https://poker-sklep.pl/318-large_default/final-table-malfini.jpg",
+                                "local_path": "images/318-large_default_final-table-malfini.jpg"
+                            }
+                        ],
                         "name": "Final Table - Malfini",
                         "price": 199.0,
                         "short_description": "Wysokiej jakości bluza sygnowa logiem Final Table.",
@@ -1670,6 +2849,16 @@
                     },
                     {
                         "product_page": "https://poker-sklep.pl/pl/final-table/106-96-bluza-final-table.html",
+                        "images": [
+                            {
+                                "url": "https://poker-sklep.pl/313-large_default/bluza-final-table.jpg",
+                                "local_path": "images/313-large_default_bluza-final-table.jpg"
+                            },
+                            {
+                                "url": "https://poker-sklep.pl/314-large_default/bluza-final-table.jpg",
+                                "local_path": "images/314-large_default_bluza-final-table.jpg"
+                            }
+                        ],
                         "name": "Bluza Final Table",
                         "price": 189.0,
                         "short_description": "Wysokiej jakości bluza Final Table.",
@@ -1695,6 +2884,16 @@
                 "products": [
                     {
                         "product_page": "https://poker-sklep.pl/pl/fournier/115-100-fournier-40-redblue.html",
+                        "images": [
+                            {
+                                "url": "https://poker-sklep.pl/338-large_default/fournier-40-redblue.jpg",
+                                "local_path": "images/338-large_default_fournier-40-redblue.jpg"
+                            },
+                            {
+                                "url": "https://poker-sklep.pl/337-large_default/fournier-40-redblue.jpg",
+                                "local_path": "images/337-large_default_fournier-40-redblue.jpg"
+                            }
+                        ],
                         "name": "Fournier 40 Red/Blue",
                         "price": 17.99,
                         "short_description": "Karty do gry hiszpańskiej marki NH Fournier.",
@@ -1708,6 +2907,12 @@
                     },
                     {
                         "product_page": "https://poker-sklep.pl/pl/karty-do-gry/39-fournier-toro-poker.html",
+                        "images": [
+                            {
+                                "url": "https://poker-sklep.pl/102-large_default/fournier-toro-poker.jpg",
+                                "local_path": "images/102-large_default_fournier-toro-poker.jpg"
+                            }
+                        ],
                         "name": "Fournier Toro Poker",
                         "price": 19.99,
                         "short_description": "Toro Poker Deck by FournierTalia standardowa. 52 karty + 2 jokery.",
@@ -1718,6 +2923,16 @@
                     },
                     {
                         "product_page": "https://poker-sklep.pl/pl/kategorie-produktow/191-135-fournier-818-4-kolory.html",
+                        "images": [
+                            {
+                                "url": "https://poker-sklep.pl/526-large_default/fournier-818-4-kolory.jpg",
+                                "local_path": "images/526-large_default_fournier-818-4-kolory.jpg"
+                            },
+                            {
+                                "url": "https://poker-sklep.pl/527-large_default/fournier-818-4-kolory.jpg",
+                                "local_path": "images/527-large_default_fournier-818-4-kolory.jpg"
+                            }
+                        ],
                         "name": "Fournier  18 Standard Poker",
                         "price": 19.99,
                         "short_description": "",
@@ -1731,6 +2946,12 @@
                     },
                     {
                         "product_page": "https://poker-sklep.pl/pl/fournier/86-sukno-pokerowe-nh-fournier.html",
+                        "images": [
+                            {
+                                "url": "https://poker-sklep.pl/239-large_default/sukno-pokerowe-nh-fournier.jpg",
+                                "local_path": "images/239-large_default_sukno-pokerowe-nh-fournier.jpg"
+                            }
+                        ],
                         "name": "Sukno pokerowe NH Fournier",
                         "price": 179.0,
                         "short_description": "Sukno pokerowe marki NH Fournier.",
@@ -1741,6 +2962,16 @@
                     },
                     {
                         "product_page": "https://poker-sklep.pl/pl/100-plastik/135-104-fournier-4-indeksy-100-plastik.html",
+                        "images": [
+                            {
+                                "url": "https://poker-sklep.pl/380-large_default/fournier-4-indeksy-100-plastik.jpg",
+                                "local_path": "images/380-large_default_fournier-4-indeksy-100-plastik.jpg"
+                            },
+                            {
+                                "url": "https://poker-sklep.pl/381-large_default/fournier-4-indeksy-100-plastik.jpg",
+                                "local_path": "images/381-large_default_fournier-4-indeksy-100-plastik.jpg"
+                            }
+                        ],
                         "name": "Fournier 4 indeksy 100% plastik",
                         "price": 49.0,
                         "short_description": "Fournier 2500 100% plastik4 indeksy",
@@ -1754,6 +2985,16 @@
                     },
                     {
                         "product_page": "https://poker-sklep.pl/pl/100-plastik/74-68-fournier-4-indeksy-100-plastik.html",
+                        "images": [
+                            {
+                                "url": "https://poker-sklep.pl/192-large_default/fournier-4-indeksy-100-plastik.jpg",
+                                "local_path": "images/192-large_default_fournier-4-indeksy-100-plastik.jpg"
+                            },
+                            {
+                                "url": "https://poker-sklep.pl/193-large_default/fournier-4-indeksy-100-plastik.jpg",
+                                "local_path": "images/193-large_default_fournier-4-indeksy-100-plastik.jpg"
+                            }
+                        ],
                         "name": "Fournier 4 indeksy 100% plastik",
                         "price": 44.0,
                         "short_description": "Fournier 2500 100% plastik4 indeksy",
@@ -1767,6 +3008,16 @@
                     },
                     {
                         "product_page": "https://poker-sklep.pl/pl/kategorie-produktow/105-92-fournier-818-4-kolory.html",
+                        "images": [
+                            {
+                                "url": "https://poker-sklep.pl/308-large_default/fournier-818-4-kolory.jpg",
+                                "local_path": "images/308-large_default_fournier-818-4-kolory.jpg"
+                            },
+                            {
+                                "url": "https://poker-sklep.pl/309-large_default/fournier-818-4-kolory.jpg",
+                                "local_path": "images/309-large_default_fournier-818-4-kolory.jpg"
+                            }
+                        ],
                         "name": "Fournier 818 - 4 kolory",
                         "price": 16.99,
                         "short_description": "Karty do gry hiszpańskiej marki NH Fournier.",
@@ -1782,6 +3033,16 @@
                     },
                     {
                         "product_page": "https://poker-sklep.pl/pl/fournier/85-mata-fournier.html",
+                        "images": [
+                            {
+                                "url": "https://poker-sklep.pl/237-large_default/mata-fournier.jpg",
+                                "local_path": "images/237-large_default_mata-fournier.jpg"
+                            },
+                            {
+                                "url": "https://poker-sklep.pl/238-large_default/mata-fournier.jpg",
+                                "local_path": "images/238-large_default_mata-fournier.jpg"
+                            }
+                        ],
                         "name": "Mata Fournier",
                         "price": 35.0,
                         "short_description": "Mata karciana marki NH Fournier.",
@@ -1792,6 +3053,16 @@
                     },
                     {
                         "product_page": "https://poker-sklep.pl/pl/kategorie-produktow/190-131-fournier-818-4-kolory.html",
+                        "images": [
+                            {
+                                "url": "https://poker-sklep.pl/521-large_default/fournier-818-4-kolory.jpg",
+                                "local_path": "images/521-large_default_fournier-818-4-kolory.jpg"
+                            },
+                            {
+                                "url": "https://poker-sklep.pl/522-large_default/fournier-818-4-kolory.jpg",
+                                "local_path": "images/522-large_default_fournier-818-4-kolory.jpg"
+                            }
+                        ],
                         "name": "Fournier 818 JUMBO Poker",
                         "price": 19.99,
                         "short_description": "",
@@ -1805,6 +3076,16 @@
                     },
                     {
                         "product_page": "https://poker-sklep.pl/pl/kategorie-produktow/181-fournier-wpt-gold-edition-redblue.html",
+                        "images": [
+                            {
+                                "url": "https://poker-sklep.pl/509-large_default/fournier-wpt-gold-edition-redblue.jpg",
+                                "local_path": "images/509-large_default_fournier-wpt-gold-edition-redblue.jpg"
+                            },
+                            {
+                                "url": "https://poker-sklep.pl/507-large_default/fournier-wpt-gold-edition-redblue.jpg",
+                                "local_path": "images/507-large_default_fournier-wpt-gold-edition-redblue.jpg"
+                            }
+                        ],
                         "name": "Fournier WPT Gold Edition Red/Blue",
                         "price": 49.0,
                         "short_description": "Złoty standard wprost od hiszpańskiego producenta.",
@@ -1815,6 +3096,16 @@
                     },
                     {
                         "product_page": "https://poker-sklep.pl/pl/100-plastik/72-64-fournier-jumbo-index-100-plastic.html",
+                        "images": [
+                            {
+                                "url": "https://poker-sklep.pl/188-large_default/fournier-jumbo-index-100-plastic.jpg",
+                                "local_path": "images/188-large_default_fournier-jumbo-index-100-plastic.jpg"
+                            },
+                            {
+                                "url": "https://poker-sklep.pl/189-large_default/fournier-jumbo-index-100-plastic.jpg",
+                                "local_path": "images/189-large_default_fournier-jumbo-index-100-plastic.jpg"
+                            }
+                        ],
                         "name": "Fournier JUMBO Index 100% Plastic",
                         "price": 54.0,
                         "short_description": "Fournier 2800 100% plastik JUMBO",
@@ -1828,6 +3119,16 @@
                     },
                     {
                         "product_page": "https://poker-sklep.pl/pl/100-plastik/77-74-fournier-wpt-100-plastik.html",
+                        "images": [
+                            {
+                                "url": "https://poker-sklep.pl/207-large_default/fournier-wpt-100-plastik.jpg",
+                                "local_path": "images/207-large_default_fournier-wpt-100-plastik.jpg"
+                            },
+                            {
+                                "url": "https://poker-sklep.pl/208-large_default/fournier-wpt-100-plastik.jpg",
+                                "local_path": "images/208-large_default_fournier-wpt-100-plastik.jpg"
+                            }
+                        ],
                         "name": "Fournier WPT 100% Plastik",
                         "price": 48.0,
                         "short_description": "Fournier World Poker Tour 100% plastik",
@@ -1853,6 +3154,16 @@
                 "products": [
                     {
                         "product_page": "https://poker-sklep.pl/pl/bicycle/41-42-bicycle-wsop.html",
+                        "images": [
+                            {
+                                "url": "https://poker-sklep.pl/104-large_default/bicycle-wsop.jpg",
+                                "local_path": "images/104-large_default_bicycle-wsop.jpg"
+                            },
+                            {
+                                "url": "https://poker-sklep.pl/105-large_default/bicycle-wsop.jpg",
+                                "local_path": "images/105-large_default_bicycle-wsop.jpg"
+                            }
+                        ],
                         "name": "Bicycle WSOP",
                         "price": 18.99,
                         "short_description": "Talia kart Bicycle World Series of Poker",
@@ -1866,6 +3177,16 @@
                     },
                     {
                         "product_page": "https://poker-sklep.pl/pl/kategorie-produktow/181-fournier-wpt-gold-edition-redblue.html",
+                        "images": [
+                            {
+                                "url": "https://poker-sklep.pl/509-large_default/fournier-wpt-gold-edition-redblue.jpg",
+                                "local_path": "images/509-large_default_fournier-wpt-gold-edition-redblue.jpg"
+                            },
+                            {
+                                "url": "https://poker-sklep.pl/507-large_default/fournier-wpt-gold-edition-redblue.jpg",
+                                "local_path": "images/507-large_default_fournier-wpt-gold-edition-redblue.jpg"
+                            }
+                        ],
                         "name": "Fournier WPT Gold Edition Red/Blue",
                         "price": 49.0,
                         "short_description": "Złoty standard wprost od hiszpańskiego producenta.",
@@ -1876,6 +3197,16 @@
                     },
                     {
                         "product_page": "https://poker-sklep.pl/pl/100-plastik/77-74-fournier-wpt-100-plastik.html",
+                        "images": [
+                            {
+                                "url": "https://poker-sklep.pl/207-large_default/fournier-wpt-100-plastik.jpg",
+                                "local_path": "images/207-large_default_fournier-wpt-100-plastik.jpg"
+                            },
+                            {
+                                "url": "https://poker-sklep.pl/208-large_default/fournier-wpt-100-plastik.jpg",
+                                "local_path": "images/208-large_default_fournier-wpt-100-plastik.jpg"
+                            }
+                        ],
                         "name": "Fournier WPT 100% Plastik",
                         "price": 48.0,
                         "short_description": "Fournier World Poker Tour 100% plastik",
@@ -1901,6 +3232,16 @@
                 "products": [
                     {
                         "product_page": "https://poker-sklep.pl/pl/kategorie-produktow/169-personalizowany-stol-do-pokera.html",
+                        "images": [
+                            {
+                                "url": "https://poker-sklep.pl/480-large_default/personalizowany-stol-do-pokera.jpg",
+                                "local_path": "images/480-large_default_personalizowany-stol-do-pokera.jpg"
+                            },
+                            {
+                                "url": "https://poker-sklep.pl/477-large_default/personalizowany-stol-do-pokera.jpg",
+                                "local_path": "images/477-large_default_personalizowany-stol-do-pokera.jpg"
+                            }
+                        ],
                         "name": "Personalizowany stół do pokera",
                         "price": 850.0,
                         "short_description": "Stwórz swój własny stół do pokera!",
@@ -1911,6 +3252,16 @@
                     },
                     {
                         "product_page": "https://poker-sklep.pl/pl/kasyno/138-marker-do-ruletki.html",
+                        "images": [
+                            {
+                                "url": "https://poker-sklep.pl/388-large_default/marker-do-ruletki.jpg",
+                                "local_path": "images/388-large_default_marker-do-ruletki.jpg"
+                            },
+                            {
+                                "url": "https://poker-sklep.pl/389-large_default/marker-do-ruletki.jpg",
+                                "local_path": "images/389-large_default_marker-do-ruletki.jpg"
+                            }
+                        ],
                         "name": "Marker do ruletki",
                         "price": 39.0,
                         "short_description": "",
@@ -1924,6 +3275,16 @@
                     },
                     {
                         "product_page": "https://poker-sklep.pl/pl/kategorie-produktow/170-121-blat-pokerowy-8-stanowisk-niebieski.html",
+                        "images": [
+                            {
+                                "url": "https://poker-sklep.pl/488-large_default/blat-pokerowy-8-stanowisk-niebieski.jpg",
+                                "local_path": "images/488-large_default_blat-pokerowy-8-stanowisk-niebieski.jpg"
+                            },
+                            {
+                                "url": "https://poker-sklep.pl/489-large_default/blat-pokerowy-8-stanowisk-niebieski.jpg",
+                                "local_path": "images/489-large_default_blat-pokerowy-8-stanowisk-niebieski.jpg"
+                            }
+                        ],
                         "name": "Blat pokerowy 8 stanowisk- niebieski",
                         "price": 369.0,
                         "short_description": "Już nie tylko karty na stół",
@@ -1937,6 +3298,16 @@
                     },
                     {
                         "product_page": "https://poker-sklep.pl/pl/kategorie-produktow/173-spinki-do-mankietow-pokerowe.html",
+                        "images": [
+                            {
+                                "url": "https://poker-sklep.pl/493-large_default/spinki-do-mankietow-pokerowe.jpg",
+                                "local_path": "images/493-large_default_spinki-do-mankietow-pokerowe.jpg"
+                            },
+                            {
+                                "url": "https://poker-sklep.pl/494-large_default/spinki-do-mankietow-pokerowe.jpg",
+                                "local_path": "images/494-large_default_spinki-do-mankietow-pokerowe.jpg"
+                            }
+                        ],
                         "name": "Spinki do mankietów pokerowe",
                         "price": 129.0,
                         "short_description": "Niech szczęście Ci sprzyja za każdym razem gdy zakładasz koszulę.",
@@ -1947,6 +3318,12 @@
                     },
                     {
                         "product_page": "https://poker-sklep.pl/pl/kasyno/168-sukno-do-ruletki-i-pokera-modiano.html",
+                        "images": [
+                            {
+                                "url": "https://poker-sklep.pl/476-large_default/sukno-do-ruletki-i-pokera-modiano.jpg",
+                                "local_path": "images/476-large_default_sukno-do-ruletki-i-pokera-modiano.jpg"
+                            }
+                        ],
                         "name": "Sukno do ruletki i pokera MODIANO",
                         "price": 59.0,
                         "short_description": "Dwa sukna w cenie jednego!",
@@ -1957,6 +3334,12 @@
                     },
                     {
                         "product_page": "https://poker-sklep.pl/pl/akcesoria-pokerowe/140-walizka-na-1000-zetonow.html",
+                        "images": [
+                            {
+                                "url": "https://poker-sklep.pl/391-large_default/walizka-na-1000-zetonow.jpg",
+                                "local_path": "images/391-large_default_walizka-na-1000-zetonow.jpg"
+                            }
+                        ],
                         "name": "Walizka na 1000 żetonów",
                         "price": 149.0,
                         "short_description": "",
@@ -1967,6 +3350,12 @@
                     },
                     {
                         "product_page": "https://poker-sklep.pl/pl/akcesoria-pokerowe/139-layout-poker-texas-holdem.html",
+                        "images": [
+                            {
+                                "url": "https://poker-sklep.pl/505-large_default/layout-poker-texas-holdem.jpg",
+                                "local_path": "images/505-large_default_layout-poker-texas-holdem.jpg"
+                            }
+                        ],
                         "name": "Layout Poker Texas Holdem",
                         "price": 89.0,
                         "short_description": "Wykonana z filcu mata do pokera.",
@@ -1977,6 +3366,16 @@
                     },
                     {
                         "product_page": "https://poker-sklep.pl/pl/kategorie-produktow/181-fournier-wpt-gold-edition-redblue.html",
+                        "images": [
+                            {
+                                "url": "https://poker-sklep.pl/509-large_default/fournier-wpt-gold-edition-redblue.jpg",
+                                "local_path": "images/509-large_default_fournier-wpt-gold-edition-redblue.jpg"
+                            },
+                            {
+                                "url": "https://poker-sklep.pl/507-large_default/fournier-wpt-gold-edition-redblue.jpg",
+                                "local_path": "images/507-large_default_fournier-wpt-gold-edition-redblue.jpg"
+                            }
+                        ],
                         "name": "Fournier WPT Gold Edition Red/Blue",
                         "price": 49.0,
                         "short_description": "Złoty standard wprost od hiszpańskiego producenta.",
