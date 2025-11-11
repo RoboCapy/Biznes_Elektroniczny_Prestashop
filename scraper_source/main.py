@@ -161,7 +161,7 @@ class PokerScraper:
         image_path = self.image_folder / image_name
 
         if image_path.exists():
-            return str(image_path.relative_to(destination_folder)).replace("\\", "/")
+            return str(image_path.relative_to(destination_folder.parent)).replace("\\", "/")
 
         image_data = self.session.get(url)
         with open(image_path, "wb") as file:
