@@ -1,7 +1,7 @@
 # PrestaShop - only what we modify after fresh install
 shop_source/*
 !shop_source/themes/
-!shop_source/modules/your-custom-module/
+!shop_source/modules/
 
 # Database
 db_data/
