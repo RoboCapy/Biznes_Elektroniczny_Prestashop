@@ -1,23 +1,12 @@
-# PrestaShop cache and logs
-shop_source/var/cache/
-shop_source/var/logs/
-shop_source/var/sessions/
-shop_source/app/cache/
-shop_source/app/logs/
-
-# PrestaShop generated files
-shop_source/config/xml/
-shop_source/img/tmp/
-shop_source/upload/
-shop_source/download/
-shop_source/mails/
+# PrestaShop - only what we modify after fresh install
+shop_source/*
+!shop_source/themes/
+!shop_source/modules/your-custom-module/
 
 # Database
 db_data/
 
 # Environment configuration
-shop_source/app/config/parameters.php
-shop_source/config/settings.inc.php
 .env
 
 # Composer
