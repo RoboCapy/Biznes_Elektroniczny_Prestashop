@@ -4,9 +4,10 @@ import xml.etree.ElementTree as ET
 from xml.sax.saxutils import escape
 import re
 import os
+import urllib.parse
 
 API_URL = "https://localhost/api"
-API_KEY = "VRLLA4MTC6DBVN16N9VEVRGVYHFRV46I"#trzeba sobie samemu wygenerować
+API_KEY = "VRLLA4MTC6DBVN16N9VEVRGVYHFRV46I"
 JSON_FILE = "data.json"
 
 requests.packages.urllib3.disable_warnings()
@@ -30,6 +31,54 @@ def get_blank_schema(resource):
             return ET.fromstring(r.content)
     except: pass
     return None
+
+def get_product_id_by_name(name):
+    try:
+        quoted_name = urllib.parse.quote(name)
+        url = f"{API_URL}/products?display=[id]&filter[name]={quoted_name}&limit=1"
+        r = requests.get(url, auth=(API_KEY, ''), verify=False)
+        if r.status_code == 200:
+            root = ET.fromstring(r.content)
+            products = root.find('products')
+            if products is not None and len(products) > 0:
+                product = products.find('product')
+                if product is not None:
+                    return product.find('id').text
+    except: pass
+    return None
+
+def link_category_to_product(product_id, category_id):
+    try:
+        url = f"{API_URL}/products/{product_id}"
+        r = requests.get(url, auth=(API_KEY, ''), verify=False)
+        if r.status_code != 200:
+            return False
+        
+        root = ET.fromstring(r.content)
+        categories_node = root.find(".//associations/categories")
+        
+        if categories_node is None:
+            associations = root.find('product/associations')
+            if associations is None:
+                associations = ET.SubElement(root.find('product'), 'associations')
+            categories_node = ET.SubElement(associations, 'categories')
+
+        existing_ids = [c.find('id').text for c in categories_node.findall('category') if c.find('id') is not None]
+        
+        if str(category_id) not in existing_ids:
+            new_cat = ET.SubElement(categories_node, 'category')
+            id_node = ET.SubElement(new_cat, 'id')
+            id_node.text = str(category_id)
+            
+            requests.put(url, data=ET.tostring(root, encoding='utf-8'), auth=(API_KEY, ''), verify=False)
+            print(f" > Linked category {category_id} to existing product ID {product_id}")
+            return True
+        else:
+            print(f" > Product ID {product_id} already in category {category_id}")
+            return True
+    except Exception as e:
+        print(f"ERROR linking category: {e}")
+    return False
 
 def add_image(resource_id, image_path):
     if image_path.startswith("scraper_results/"):
@@ -92,6 +141,13 @@ def create_category(name, parent_id=2):
     return None
 
 def create_product(data, category_id):
+    prod_name = data.get('name', 'Product')
+    existing_id = get_product_id_by_name(prod_name)
+    
+    if existing_id:
+        link_category_to_product(existing_id, category_id)
+        return None
+
     schema = get_blank_schema('products')
     if not schema: return None
     
@@ -125,11 +181,11 @@ def create_product(data, category_id):
     
     name = product.find('name')
     if name is not None:
-        for l in name.findall('language'): l.text = escape(data.get('name', 'Product'))
+        for l in name.findall('language'): l.text = escape(prod_name)
     
     link = product.find('link_rewrite')
     if link is not None:
-        for l in link.findall('language'): l.text = slugify(data.get('name', 'product'))[:100]
+        for l in link.findall('language'): l.text = slugify(prod_name)[:100]
 
     desc_short = product.find('description_short')
     if desc_short is not None:
@@ -153,7 +209,7 @@ def create_product(data, category_id):
         
         if r.status_code == 201:
             prod_id = ET.fromstring(r.content).find(".//id").text
-            print(f" > Created: {data.get('name')} (ID: {prod_id})")
+            print(f" > Created: {prod_name} (ID: {prod_id})")
             
             update_stock(prod_id, 100)
             
