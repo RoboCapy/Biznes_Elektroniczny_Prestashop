@@ -1,0 +1,6 @@
+parent: classic
+name: classic_child
+display_name: szablon użytkowy
+version: 1.0.0
+assets:
+  use_parent_assets: true
