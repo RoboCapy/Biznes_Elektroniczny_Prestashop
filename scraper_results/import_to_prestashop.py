@@ -110,12 +110,13 @@ def create_product(data, category_id):
     
     gross_price = float(raw_price)
     net_price = gross_price / 1.23
-
+    weight = (gross_price / 850)*40
     set_val(product, 'id_shop_default', '1')
     set_val(product, 'minimal_quantity', '1') 
     set_val(product, 'available_for_order', '1')
     set_val(product, 'show_price', '1')
     set_val(product, 'price', "{:.6f}".format(net_price))
+    set_val(product, 'weight', "{:.2f}".format(weight))
     set_val(product, 'active', '1')
     set_val(product, 'state', '1')
     set_val(product, 'id_category_default', str(category_id))
@@ -182,8 +183,10 @@ def main():
         
         for sub_name, sub_val in cat_val.get('subcategories', {}).items():
             print(f" - Sub: {sub_name}")
-            cid = create_category(sub_name, pid)
-            if not cid: continue
+            if sub_name!=cat_name:
+                cid = create_category(sub_name, pid)
+                if not cid: continue
+            else: cid=pid
             
             for prod in sub_val.get('products', []):
                 create_product(prod, cid)
