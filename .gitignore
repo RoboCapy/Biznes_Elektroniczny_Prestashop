@@ -2,7 +2,9 @@
 shop_source/*
 !shop_source/themes/
 !shop_source/modules/
-
+!shop_source/.htacces
+!shop_source/app/config/parameters.php
+!shop_source/img/
 # Database
 db_data/
 
