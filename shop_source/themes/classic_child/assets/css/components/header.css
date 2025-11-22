@@ -1,0 +1,245 @@
+/* First line - Top navigation bar */
+.header-nav {
+    background: #333 !important; /* Black background */
+    border-bottom: none;
+    padding: 8px 0;
+    font-size: 13px;
+}
+
+.header-nav a {
+    color: #fff !important; /* White text */
+    text-decoration: none;
+    margin: 0 15px;
+    transition: color 0.3s ease;
+}
+
+.header-nav a:hover {
+    color: #ff6b35 !important;
+}
+
+/* Remove cart from top line */
+.header-nav .shopping-cart,
+.header-nav .user-info,
+.header-nav .logout {
+    display: none !important;
+}
+
+.header-nav .blockcart,
+.header-nav .shopping-cart {
+    display: none !important;
+}
+
+/* Ensure language selector and wishlist are visible in top bar */
+.header-nav .language-selector-wrapper,
+.header-nav .wishlist {
+    display: inline-block !important;
+}
+
+/* Ensure language selector and wishlist are styled properly in top line */
+.header-nav .language-selector-wrapper,
+.header-nav .wishlist-top {
+    display: inline-block;
+}
+
+/* Second line - Main header */
+.header-top {
+    padding: 15px 0;
+    background: transparent !important;
+    border-bottom: 1px solid #e9ecef;
+}
+
+/* Logo on left */
+#_desktop_logo {
+    text-align: left;
+}
+
+#_desktop_logo img {
+    max-height: 50px;
+    width: auto;
+}
+
+/* Search bar in center */
+.col-header-center {
+    display: flex;
+    justify-content: center;
+}
+
+#search_widget {
+    max-width: 500px;
+    width: 100%;
+}
+
+#search_widget form {
+    display: flex;
+    width: 100%;
+}
+
+#search_widget form input[type="text"] {
+    border: 1px solid #ddd;
+    border-radius: 4px 0 0 4px;
+    padding: 10px 15px;
+    flex: 1;
+    font-size: 14px;
+}
+
+#search_widget form button {
+    background: #333;
+    border: 1px solid #333;
+    border-radius: 0 4px 4px 0;
+    color: white;
+    padding: 10px 20px;
+    transition: background 0.3s ease;
+}
+
+#search_widget form button:hover {
+    background: #ff6b35;
+    border-color: #ff6b35;
+}
+
+/* User actions on right */
+.col-header-right {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.header-actions {
+    display: flex;
+    gap: 10px;
+}
+
+/* User account, wishlist, cart buttons */
+#header-user-btn .header-btn,
+#header-wishlist-btn .header-btn,
+#header-cart-btn .header-btn {
+    color: #333 !important;
+    background: transparent;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 8px 15px !important;
+    text-decoration: none !important;
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+}
+
+#header-user-btn .header-btn:hover,
+#header-wishlist-btn .header-btn:hover,
+#header-cart-btn .header-btn:hover {
+    background: #333;
+    color: white !important;
+    border-color: #333;
+}
+
+/* Third line - Header bottom with categories and contact */
+.header-bottom {
+    background: #f8f9fa;
+    border-top: 1px solid #e9ecef;
+    border-bottom: 1px solid #e9ecef;
+    padding: 10px 0;
+}
+
+.header-bottom .row {
+    align-items: center;
+}
+
+/* Remove duplicate search bar from third line */
+.header-bottom #search_widget {
+    display: none !important;
+}
+
+/* Categories menu */
+.header-bottom .col-md-8 {
+    display: flex;
+    align-items: center;
+}
+
+/* Contact info on right */
+.header-contact-info {
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+}
+
+.contact-phone,
+.contact-email {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 14px;
+    color: #333;
+}
+
+.contact-phone i,
+.contact-email i {
+    color: #ff6b35;
+    font-size: 16px;
+}
+
+/* Mega menu adjustments */
+#iqitmegamenu-horizontal .cbp-hrmenu > ul > li > a {
+    color: #333 !important;
+    font-weight: 600;
+    font-size: 14px;
+    text-transform: uppercase;
+    padding: 15px 20px !important;
+    transition: color 0.3s ease;
+}
+
+#iqitmegamenu-horizontal .cbp-hrmenu > ul > li > a:hover {
+    color: #ff6b35 !important;
+    background: transparent !important;
+}
+
+/* Mobile header adjustments */
+@media (max-width: 767px) {
+    .header-nav {
+        text-align: center;
+    }
+    
+    .header-nav .left-nav,
+    .header-nav .right-nav {
+        text-align: center !important;
+        width: 100%;
+    }
+    
+    .header-nav .left-nav {
+        margin-bottom: 5px;
+    }
+    
+    #_desktop_logo {
+        text-align: center;
+        margin-bottom: 15px;
+    }
+    
+    #_desktop_logo img {
+        max-height: 40px;
+    }
+    
+    .col-header-center {
+        order: 2;
+        margin: 10px 0;
+    }
+    
+    .col-header-right {
+        order: 3;
+        justify-content: center;
+        margin-top: 10px;
+    }
+    
+    .header-actions {
+        gap: 5px;
+    }
+    
+    .header-contact-info {
+        justify-content: center;
+        margin-top: 10px;
+    }
+    
+    .header-bottom .col-md-8 {
+        justify-content: center;
+    }
+}

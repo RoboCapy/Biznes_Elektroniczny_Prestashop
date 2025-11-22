@@ -1,0 +1,143 @@
+/* Main footer */
+#footer {
+    background: #f8f9fa;
+    border-top: 1px solid #e9ecef;
+    margin-top: 50px;
+}
+
+/* Newsletter section */
+.footer-newsletter {
+    padding: 40px 0;
+    border-bottom: 1px solid #e9ecef;
+}
+
+.footer-newsletter h5 {
+    color: #333;
+    font-weight: 600;
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+/* Newsletter form */
+.ps-emailsubscription-block .form-control {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 10px 15px;
+    margin-right: 5px;
+}
+
+.ps-emailsubscription-block .btn-primary {
+    background: #333;
+    border: 1px solid #333;
+    border-radius: 4px;
+    padding: 10px 20px;
+    transition: background 0.3s ease;
+}
+
+.ps-emailsubscription-block .btn-primary:hover {
+    background: #ff6b35;
+    border-color: #ff6b35;
+}
+
+.ps-emailsubscription-conditions {
+    color: #6c757d;
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+/* Main footer content */
+.footer-main {
+    padding: 40px 0;
+}
+
+.footer-block h3 {
+    color: #333;
+    font-weight: 600;
+    margin-bottom: 20px;
+    font-size: 16px;
+    border-bottom: 2px solid #ff6b35;
+    padding-bottom: 5px;
+}
+
+.footer-block ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-block ul li {
+    margin-bottom: 8px;
+}
+
+.footer-block ul li a {
+    color: #6c757d !important;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-block ul li a:hover {
+    color: #ff6b35 !important;
+}
+
+/* Contact information */
+.block-iqitcontactpage strong {
+    color: #333;
+    font-size: 16px;
+    display: block;
+    margin-bottom: 15px;
+}
+
+.block-iqitcontactpage .part {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.block-iqitcontactpage .part .icon {
+    color: #ff6b35;
+    margin-right: 10px;
+    width: 20px;
+}
+
+.block-iqitcontactpage .part a {
+    color: #6c757d !important;
+    text-decoration: none;
+}
+
+.block-iqitcontactpage .part a:hover {
+    color: #ff6b35 !important;
+}
+
+/* Copyright section */
+.footer-copyright {
+    background: #e9ecef;
+    padding: 20px 0;
+    border-top: 1px solid #ddd;
+}
+
+.footer-copyright .col-md-6:first-child {
+    color: #6c757d;
+    font-size: 14px;
+}
+
+.footer-copyright .col-md-6:last-child img {
+    max-height: 30px;
+    margin-left: 10px;
+}
+
+/* Responsive footer */
+@media (max-width: 767px) {
+    .footer-newsletter,
+    .footer-main {
+        text-align: center;
+    }
+    
+    .footer-block {
+        margin-bottom: 30px;
+    }
+    
+    .footer-copyright .col-md-6 {
+        text-align: center !important;
+        margin-bottom: 10px;
+    }
+}
