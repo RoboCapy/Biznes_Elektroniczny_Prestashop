@@ -5,6 +5,8 @@ from xml.sax.saxutils import escape
 import re
 import os
 import urllib.parse
+import random
+from datetime import datetime
 
 API_URL = "https://localhost/api"
 API_KEY = "ALKD3CYIH3NAB8GM9R1VQZKHPVGL8242"
@@ -222,7 +224,55 @@ def update_stock(product_id, quantity):
 
     except Exception:
         pass
+def create_specific_price(product_id, reduction_value, start_date=None, end_date=None, quantity_min=1, type='percentage'):
+    schema = get_blank_schema('specific_prices')
+    if not schema:
+        print(" [BŁĄD] Nie można uzyskać schematu XML dla cen specyficznych.")
+        return False
+        
+    current_time = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    sp = schema.find('specific_price')
+    
+    set_val(sp, 'id_product', str(product_id))
+    set_val(sp, 'id_shop', '1')
+    set_val(sp, 'id_currency', '0') 
+    set_val(sp, 'from_quantity', str(quantity_min))
+    set_val(sp, 'reduction', str(reduction_value))
+    set_val(sp, 'reduction_type', type)
+    
+    set_val(sp, 'id_shop_group', '0')     
+    set_val(sp, 'id_country', '0')           
+    set_val(sp, 'id_cart', '0')               
+    
+    set_val(sp, 'reduction_tax', '0')         
+    set_val(sp, 'id_group', '0') 
+    set_val(sp, 'id_customer', '0') 
+    set_val(sp, 'id_product_attribute', '0') 
+    set_val(sp,'price','-1')
+    
+    set_val(sp, 'from', start_date or current_time) 
+    set_val(sp, 'to', end_date or '0000-00-00 00:00:00')
 
+    xml_data = ET.tostring(schema, encoding='utf-8')
+    headers = {'Content-Type': 'text/xml'}
+
+    try:
+        response = requests.post(
+            f"{API_URL}/specific_prices", 
+            data=xml_data, 
+            auth=(API_KEY, ''), 
+            verify=False,
+            headers=headers
+        )
+
+        if response.status_code == 201: 
+            print(f" [OK] Dodano {reduction_value} {type} do Produktu ID {product_id}. Status: {response.status_code}")
+            return True
+        
+
+    except requests.exceptions.RequestException as e:
+        print(f" [BŁĄD POŁĄCZENIA] Wystąpił błąd podczas wysyłania żądania: {e}")
+        return False
 def create_category(name, parent_id=2):
     schema = get_blank_schema('categories')
     if schema is None: return None
@@ -317,12 +367,17 @@ def create_product(data, category_id,combinations=None):
             prod_id = ET.fromstring(r.content).find(".//id").text
             print(f" > Created: {prod_name} (ID: {prod_id})")
             
-            print("   ! Tworzenie wariantów dla Żetonów...")
+            
                 
             if combinations:
                 for val_id in combinations.atribute_values_id:
-                    create_combination(prod_id, val_id)    
-            update_stock(prod_id, 100)
+                    create_combination(prod_id, val_id) 
+            quantity=random.randint(0,10) 
+            update_stock(prod_id, quantity)
+            ifsale=random.randint(0,9)
+            if ifsale==0:
+                reduction=round(random.random(),2)
+                create_specific_price(prod_id,reduction)
             images = data.get('images', [])
             for img_data in images:
                 path = img_data.get('local_path')
@@ -381,6 +436,9 @@ def main():
                 for prod in sub_val.get('products', []):
                 
                     create_product(prod, cid)
+                    
+            
+        
 
 if __name__ == "__main__":
     main()
