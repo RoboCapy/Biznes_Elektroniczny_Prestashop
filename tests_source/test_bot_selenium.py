@@ -154,7 +154,7 @@ def main():
         print("4. Usuwanie produktów z koszyka...")
         time.sleep(1)
         driver.get(f"{SHOP_URL}/koszyk?action=show")
-        '''try:
+        try:
             for _ in range(3):
                 delete_icons = wait.until(EC.presence_of_all_elements_located((By.CLASS_NAME, "remove-from-cart")))
                 if len(delete_icons) > 0:
@@ -162,7 +162,7 @@ def main():
                     time.sleep(2) 
             print("  Usunięto 3 produkty.")
         except:
-            print("  Koszyk jest pusty lub nie ma 3 produktów.")'''
+            print("  Koszyk jest pusty lub nie ma 3 produktów.")
         #5. REALIZACJA ZAMÓWIENIA
         print("Ustawianie adresu...")
         try:
