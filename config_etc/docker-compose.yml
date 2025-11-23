@@ -27,7 +27,14 @@ services:
       - ../db_data:/var/lib/mysql
     restart: always
 
-  
+  mailhog:
+    image: mailhog/mailhog
+    container_name: prestashop-mailhog
+    logging:
+      driver: 'none'
+    ports:
+      - "8025:8025"
+      - "1025:1025"
   web:
     
     image: prestashop/prestashop:1.7.8-7.4
