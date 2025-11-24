@@ -7,13 +7,15 @@ from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
+from selenium.common.exceptions import TimeoutException
 import os
+import re
 
 SHOP_URL = "https://localhost"
 SEARCH_TERM = "bicycle" 
 
-CAT_URL_1 = f"{SHOP_URL}/418-karty-do-gry" 
-CAT_URL_2 = f"{SHOP_URL}/425-zetony" 
+CAT_URL_1 = f"{SHOP_URL}/351-karty-do-gry" 
+CAT_URL_2 = f"{SHOP_URL}/355-zestawy-pokerowe" 
 
 
 def generate_random_email():
@@ -42,7 +44,17 @@ def setup_driver():
     
     driver = webdriver.Chrome(service=service, options=options)
     return driver
-
+def extract_product_id_from_url(url):
+    import re
+    try:
+        
+        ids = re.findall(r'/(\d+)-', url) 
+        if ids:
+            
+            return ids[-1] 
+    except:
+        pass
+    return None
 def add_products_from_category(driver, category_url, count):
     driver.get(category_url)
     wait = WebDriverWait(driver, 10)
@@ -61,8 +73,16 @@ def add_products_from_category(driver, category_url, count):
         if added >= count: break
         
         driver.get(link)
+        current_prod_id = extract_product_id_from_url(link)
         
+        unavailable_icon = driver.find_elements(By.CSS_SELECTOR, "span#product-availability i.product-unavailable")
+    
+        if unavailable_icon:
+            print(" [i] Produkt niedostępny (wykryto ikonę). Przechodzę dalej.")
+       
+            continue
         try:
+
             
             clicks=random.randint(1,3)
             up_button = wait.until(EC.element_to_be_clickable((By.CSS_SELECTOR, "button.bootstrap-touchspin-up")))
@@ -73,15 +93,48 @@ def add_products_from_category(driver, category_url, count):
             
             add_btn = wait.until(EC.element_to_be_clickable((By.CSS_SELECTOR, "button.add-to-cart")))
             add_btn.click()
+
+            try:
+                WebDriverWait(driver, 1).until(EC.presence_of_element_located((By.CSS_SELECTOR, ".alert.alert-danger.ajax-error")))
+                
+                
+                print(" [!] BŁĄD STOCKU WYKRYTY (AJAX). Przechodzę dalej.")
+                driver.get(f"{SHOP_URL}/koszyk?action=show")
+                try:
+                    test = driver.find_elements(By.CSS_SELECTOR,f"a[data-id-product='{current_prod_id}']")
+                    if test:
+                        wait.until(EC.element_to_be_clickable((By.CSS_SELECTOR, f"a[data-id-product='{current_prod_id}']"))).click()
+
+                    else: print("Działa ale nie wiem w sumie czemu")
+                except: pass
+                
+                continue 
+
+            except TimeoutException:
+                
+                pass 
             
             
-            continue_btn = wait.until(EC.element_to_be_clickable((By.CSS_SELECTOR, ".cart-content-btn .btn-secondary")))
-            continue_btn.click()
-            added += 1
-            print(f" Dodano produkt {added}/{count} z kategorii")
+            try:
+                continue_btn = wait.until(EC.element_to_be_clickable((By.CSS_SELECTOR, ".cart-content-btn .btn-secondary"))).click()
+                added += 1
+                print(f" [x] Dodano produkt {added}/{count}")
+                
+
+                
+            except:
+                
+                pass
+            
         except Exception as e:
             print(f"  Błąd przy dodawaniu produktu: {e}")
+    if added<count: print("Brak możliwości dodania produktów (wszystkie sprawdzone)")    
 
+
+            
+
+        
+        
 def main():
     driver = setup_driver()
     wait = WebDriverWait(driver, 1)
@@ -100,21 +153,29 @@ def main():
         search_box = driver.find_element(By.NAME, "s")
         search_box.send_keys(SEARCH_TERM)
         search_box.submit()
-        
+            
         try:
+                
             results = wait.until(EC.presence_of_all_elements_located((By.CSS_SELECTOR, ".product-miniature")))
             if results:
+                    
                 random_product = random.choice(results)
                 random_product.find_element(By.TAG_NAME, "a").click()
-                
+                    
+                unavailable_icon = driver.find_elements(By.CSS_SELECTOR, "span#product-availability i.product-unavailable")
+        
+                if unavailable_icon:
+                    print(" [i] Produkt niedostępny, Przechodzę dalej.")
+                    
+                            
+                        
                 wait.until(EC.element_to_be_clickable((By.CSS_SELECTOR, "button.add-to-cart"))).click()
                 checkout_btn = wait.until(EC.element_to_be_clickable((By.CSS_SELECTOR, ".cart-content-btn .btn-primary")))
                 checkout_btn.click()
                 print(" Wyszukano i dodano produkt.")
+                 
         except:
             print("  Nie znaleziono produktów w wyszukiwarce.")
-
-        
         
         
         
