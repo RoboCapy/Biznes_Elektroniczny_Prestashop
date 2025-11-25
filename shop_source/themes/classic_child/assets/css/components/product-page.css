@@ -1,0 +1,39 @@
+.product-description {
+    font-size: large !important;
+    font-weight: 900 !important;
+}
+
+.current-price-value {
+    background-color: red !important;
+    font-size: xx-large !important;
+    color: white !important;
+}
+
+button.add-to-cart:hover {
+  background-color: red;
+}
+
+li.product-flag {
+    background-color: red !important;
+}
+
+.breadcrumb ol li {
+    font-size: small !important;
+}
+
+ul.product-images li.thumb-container img:hover {
+    border-color: red !important;
+}
+
+ul.product-images li.thumb-container img.selected {
+    border-color: red !important;
+}
+
+ul.nav li.nav-item a.active {
+    color: red !important;
+    border-bottom-color: red !important;
+}
+
+ul.nav li.nav-item a:hover {
+    border-bottom-color: red !important;
+}

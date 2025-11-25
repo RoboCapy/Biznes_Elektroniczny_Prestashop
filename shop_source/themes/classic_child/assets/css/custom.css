@@ -2,6 +2,7 @@
 @import url('components/header.css');
 @import url('components/footer.css');
 @import url('components/category.css');
+@import url('components/product-page.css');
 
 /* Global styles */
 body {
@@ -191,6 +192,23 @@ body {
 .col, .col-auto, .col-md, .col-sm {
     padding-left: 15px;
     padding-right: 15px;
+}
+
+.special-link a:hover {
+    color: red !important;
+}
+
+.category a[data-depth="0"] {
+    background-color: red !important;
+    color: white !important;
+}
+
+li .category a[data-depth="1"]:hover {
+    color: red !important;
+}
+
+li .category a[data-depth="2"]:hover {
+    color: red !important;
 }
 
 /* Responsive adjustments */

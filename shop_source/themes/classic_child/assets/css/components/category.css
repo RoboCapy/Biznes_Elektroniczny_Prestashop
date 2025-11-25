@@ -18,3 +18,7 @@
 #wrapper {
   background-color: white !important;
 }
+
+ul.page-list li.current a {
+  color: red !important;
+}
