@@ -211,6 +211,11 @@ li .category a[data-depth="2"]:hover {
     color: red !important;
 }
 
+#search_widget form input[type="text"],
+.search-widget form input[type="text"] {
+    padding-left: 40px !important;  /* miejsce na lupkę */
+}
+
 /* Responsive adjustments */
 @media (max-width: 767px) {
     .ps-emailsubscription-block form {
