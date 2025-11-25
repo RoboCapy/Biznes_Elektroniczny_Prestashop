@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Signika:wght@300;400;500;600;700&display=swap');
+@import url('components/header.css');
+@import url('components/footer.css');
+
+/* Global styles */
+body {
+    font-family: 'Signika', sans-serif;
+    line-height: 1.5;
+    color: #333;
+    background-color: #fff;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+/* COMPLETELY REMOVE HOMEPAGE CONTENT SPACE */
+body.index #wrapper {
+    display: none !important;
+}
+
+/* Ensure body takes full viewport height and footer stays at bottom */
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+#header {
+    flex-shrink: 0;
+}
+
+.footer-container {
+    flex-shrink: 0;
+    margin-top: auto; /* Push footer to bottom */
+}
+
+/* Newsletter in footer */
+.footer-newsletter {
+    background: #f8f9fa;
+    padding: 40px 0;
+    border-bottom: 1px solid #e9ecef;
+}
+
+.footer-newsletter h5 {
+    color: #333;
+    font-weight: 600;
+    margin-bottom: 20px;
+    font-size: 18px;
+    text-align: center;
+}
+
+.ps-emailsubscription-block {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.ps-emailsubscription-block form {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.ps-emailsubscription-block .form-control {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 10px 15px;
+    flex: 1;
+}
+
+.ps-emailsubscription-block .btn-primary {
+    background: #333;
+    border: 1px solid #333;
+    border-radius: 4px;
+    padding: 10px 20px;
+    transition: background 0.3s ease;
+    color: white;
+    white-space: nowrap;
+}
+
+.ps-emailsubscription-block .btn-primary:hover {
+    background: #ff6b35;
+    border-color: #ff6b35;
+}
+
+.ps-emailsubscription-conditions {
+    color: #6c757d;
+    font-size: 12px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+/* Footer adjustments */
+.footer-main {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 40px 0;
+}
+
+.footer-block {
+    flex: 1;
+    min-width: 250px;
+    margin-bottom: 30px;
+}
+
+.footer-block h3 {
+    color: #333;
+    font-weight: 600;
+    margin-bottom: 20px;
+    font-size: 16px;
+    border-bottom: 2px solid #ff6b35;
+    padding-bottom: 5px;
+}
+
+.footer-block ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-block ul li {
+    margin-bottom: 8px;
+}
+
+.footer-block ul li a {
+    color: #6c757d !important;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-block ul li a:hover {
+    color: #ff6b35 !important;
+}
+
+/* Contact information in footer */
+.block-iqitcontactpage strong {
+    color: #333;
+    font-size: 16px;
+    display: block;
+    margin-bottom: 15px;
+}
+
+.block-iqitcontactpage .part {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.block-iqitcontactpage .part .icon {
+    color: #ff6b35;
+    margin-right: 10px;
+    width: 20px;
+}
+
+.block-iqitcontactpage .part a {
+    color: #6c757d !important;
+    text-decoration: none;
+}
+
+.block-iqitcontactpage .part a:hover {
+    color: #ff6b35 !important;
+}
+
+/* Copyright section */
+.footer-copyright {
+    background: #e9ecef;
+    padding: 20px 0;
+    border-top: 1px solid #ddd;
+    margin-top: 20px;
+}
+
+/* Button styles */
+.btn-primary {
+    background: #333;
+    border-color: #333;
+    font-family: 'Signika', sans-serif;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+    background: #ff6b35;
+    border-color: #ff6b35;
+}
+
+/* Fix any layout issues */
+.row {
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+.col, .col-auto, .col-md, .col-sm {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 767px) {
+    .ps-emailsubscription-block form {
+        flex-direction: column;
+    }
+    
+    .footer-newsletter {
+        padding: 30px 0;
+    }
+    
+    .footer-block {
+        text-align: center;
+    }
+    
+    .header-contact-info {
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+    .header-categories {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+    }
+}
