@@ -1,0 +1,20 @@
+#js-product-list-header, #subcategories {
+  display: none;
+}
+
+.product-description .product-title a {
+  font-size: medium;
+  font-weight: bold !important;
+  color: black !important;
+}
+
+.price {
+  font-size: larger !important;
+  font-weight: 900 !important;
+  color: white !important;
+  background-color: red !important;
+}
+
+#wrapper {
+  background-color: white !important;
+}

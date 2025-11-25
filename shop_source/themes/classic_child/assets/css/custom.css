@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Signika:wght@300;400;500;600;700&display=swap');
 @import url('components/header.css');
 @import url('components/footer.css');
+@import url('components/category.css');
 
 /* Global styles */
 body {
