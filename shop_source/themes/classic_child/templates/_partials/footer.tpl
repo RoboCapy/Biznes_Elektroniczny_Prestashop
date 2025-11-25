@@ -4,7 +4,7 @@
     <div class="row justify-content-center">
       <div class="col-md-8">
         <div class="newsletter-content">
-          <h5>Sign up to newsletter</h5>
+          <h5>ZAPISZ SIĘ NA NEWSLETTERA</h5>
           {hook h='displayNewsletter'}
         </div>
       </div>
@@ -39,6 +39,12 @@
             </div>
             <a href="mailto:info@poker-sklep.pl">info@poker-sklep.pl</a>
           </div>
+          <div class="part">
+            <div class="icon">
+              <i class="material-icons">chat</i>
+            </div>
+            <a href="mailto:info@poker-sklep.pl">info@poker-sklep.pl</a>
+          </div>
         </div>
       </div>
 
@@ -47,12 +53,12 @@
         <h3>INFORMATION</h3>
         <ul>
           <li><a href="{url entity='contact'}">Skontaktuj się z nami</a></li>
-          <li><a href="{url entity='cms' id=5}">Delivery</a></li>
-          <li><a href="{url entity='cms' id=7}">Legal Notice</a></li>
-          <li><a href="{url entity='cms' id=4}">O sklepie</a></li>
-          <li><a href="{$urls.pages.my_account}">My account</a></li>
-          <li><a href="{url entity='cms' id=6}">Secure payment</a></li>
-          <li><a href="{url entity='prices-drop'}">Prices drop</a></li>
+          <li><a href="{url entity='cms' id=1}">Dostawa</a></li>
+          <li><a href="{url entity='cms' id=2}">Regulamin</a></li>
+          <li><a href="{url entity='cms' id=7}">O sklepie</a></li>
+          <li><a href="{$urls.pages.my_account}">Moje konto</a></li>
+          <li><a href="{url entity='cms' id=5}">Płatności</a></li>
+          <li><a href="{$link->getPageLink('prices-drop')}">Promocje</a></li>
         </ul>
       </div>
 
@@ -60,10 +66,10 @@
       <div class="col-md-4 footer-block">
         <h3>SKLEP</h3>
         <ul>
-          <li><a href="{url entity='prices-drop'}">Prices drop</a></li>
-          <li><a href="{url entity='new-products'}">New products</a></li>
-          <li><a href="{url entity='best-sales'}">Best sales</a></li>
-          <li><a href="{url entity='manufacturers'}">Manufacturers</a></li>
+          <li><a href="{url entity='prices-drop'}">Promocje</a></li>
+          <li><a href="{url entity='new-products'}">Nowe produkty</a></li>
+          <li><a href="{url entity='best-sales'}">Najczęściej kupowane</a></li>
+          <li><a href="{url entity='manufacturers'}">Producenci</a></li>
         </ul>
       </div>
     </div>

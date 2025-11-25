@@ -1,13 +1,10 @@
 {extends file=$layout}
 
 {block name='content'}
-
-  {* No newsletter on homepage - completely empty *}
-  {if $page.page_name == 'index'}
-    {* Empty homepage - no content at all *}
-  {else}
-    {* Regular page content for other pages *}
-    <section id="main">
+  <section id="main">
+    
+    {* Show Header only if NOT homepage *}
+    {if $page.page_name != 'index'}
       {block name='page_header_container'}
         {block name='page_title' hide}
           <header class="page-header">
@@ -15,24 +12,23 @@
           </header>
         {/block}
       {/block}
+    {/if}
 
-      {block name='page_content_container'}
-        <div id="content" class="page-content card card-block">
-          {block name='page_content_top'}{/block}
-          {block name='page_content'}
-            <!-- Page content -->
+    {block name='page_content_container'}
+      {* Remove 'card' class on homepage to allow full width sections *}
+      <div id="content" class="page-content {if $page.page_name != 'index'}card card-block{/if}">
+        {block name='page_content_top'}{/block}
+        {block name='page_content'}
           {/block}
-        </div>
-      {/block}
+      </div>
+    {/block}
 
-      {block name='page_footer_container'}
-        <footer class="page-footer">
-          {block name='page_footer'}
-            <!-- Footer content -->
+    {block name='page_footer_container'}
+      <footer class="page-footer">
+        {block name='page_footer'}
           {/block}
-        </footer>
-      {/block}
-    </section>
-  {/if}
+      </footer>
+    {/block}
 
+  </section>
 {/block}

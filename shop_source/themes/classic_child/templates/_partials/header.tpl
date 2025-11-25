@@ -4,9 +4,10 @@
       <div class="row">
         <div class="hidden-sm-down">
           <div class="col-md-6 left-nav">
-            <a href="{url entity='cms' id=4}">O sklepie</a>
-            <a href="{url entity='cms' id=5}">Delivery</a>
-            <a href="{url entity='cms' id=6}">Secure payment</a>
+            <a href="{url entity='cms' id=7}">O sklepie</a>
+            <a href="{url entity='cms' id=1}">Dostawa</a>
+            <a href="{url entity='cms' id=5}">Płatności</a>
+            <a href="{url entity='contact'}">Kontakt z nami</a>
           </div>
           <div class="col-md-6 right-nav">
             {hook h='displayNav2'}
