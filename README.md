@@ -10,7 +10,7 @@ Struktura katalogów projektu obejmuje: folder shop_source z pełnym kodem sklep
 konfigurację nginx oraz certyfikaty SSL, oraz folder db_data z danymi bazy MariaDB.
 
 Aby uruchomić środowisko, należy przejść do katalogu config_etc i uruchomić polecenie “docker-compose up -d”. 
-PrestaShop nie powinien być instalowany z poziomu przeglądarki — korzysta się z gotowego katalogu shop_source. 
+PrestaShop nie powinien być instalowany z poziomu przeglądarki - korzysta się z gotowego katalogu shop_source. 
 Po uruchomieniu kontenerów trzeba nadać odpowiednie uprawnienia w kontenerze PrestaShop: chown -R www-data:www-data /var/www/html. 
 W razie potrzeby usuwa się pamięć cache poleceniem rm -rf /var/www/html/var/cache/*. 
 Sklep jest dostępny pod adresem https://localhost
