@@ -204,11 +204,11 @@ body {
 }
 
 li .category a[data-depth="1"]:hover {
-    color: red !important;
+    color: #007bff !important;
 }
 
 li .category a[data-depth="2"]:hover {
-    color: red !important;
+    color: #007bff !important;
 }
 
 #search_widget form input[type="text"],
