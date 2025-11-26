@@ -17,6 +17,5 @@ Sklep jest dostępny pod adresem https://localhost
 Skład zespołu projektowego:
 1. Krzysztof August
 2. Zofia Bloch
-3. Oliwia Błaszczuk
-4. Sambor Seredyński
-5. Kacper Skudlarz
+3. Sambor Seredyński
+4. Kacper Skudlarz
