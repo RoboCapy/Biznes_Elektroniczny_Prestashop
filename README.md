@@ -1,4 +1,3 @@
-UZUPEŁNIĆ WERSJE !!!
 Projekt polega na uruchomieniu sklepu internetowego PrestaShop 1.7.8 w środowisku kontenerowym Docker z obsługą HTTPS, bazą danych MariaDB oraz lokalnym serwerem MailHog do testowania wiadomości e-mail. 
 Całość została przygotowana tak, aby można było odtworzyć w pełni działający sklep bez wykonywania instalacji PrestaShop przez przeglądarkę, jedynie na podstawie gotowych plików źródłowych i konfiguracji.
 
