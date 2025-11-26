@@ -37,17 +37,36 @@ body {
 
 /* Newsletter in footer */
 .footer-newsletter {
-    background: #f8f9fa;
-    padding: 40px 0;
-    border-bottom: 1px solid #e9ecef;
+    background-color: #000; /* czarne tło */
+    background-image: url('https://poker-sklep.pl/img/bg-new.jpg');
+    background-repeat: no-repeat;
+    background-position: right center; /* przesunięcie w prawo */
+    background-size: auto 100%; /* dopasowanie do wysokości, nie do szerokości */
+    
+    padding: 90px 0;
+    color: #fff;
 }
 
+
+
+.home-slider {
+    display: flex;
+    justify-content: center; /* wyśrodkowanie poziome */
+    align-items: center;     /* wyśrodkowanie pionowe – opcjonalne */
+}
+.swiper-slide-inner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
 .footer-newsletter h5 {
-    color: #333;
-    font-weight: 600;
+    color: #ffffff;
+    font-weight: 700;
     margin-bottom: 20px;
-    font-size: 18px;
-    text-align: center;
+    font-size: 25px;
+    text-align: left;
 }
 
 .ps-emailsubscription-block {
@@ -192,6 +211,7 @@ body {
 .col, .col-auto, .col-md, .col-sm {
     padding-left: 15px;
     padding-right: 15px;
+    color: white;
 }
 
 .special-link a:hover {
@@ -217,35 +237,36 @@ li .category a[data-depth="2"]:hover {
 }
 
 /* Homepage sections */
-
-.benefits-strip {
-
-    padding: 40px 0;
-
-    background: #f8f9fa;
-
+/* Sekcja na pełną szerokość */
+section.benefits-strip {
+    width: 100vw;          /* szerokość pełnego ekranu */
+    margin-left: 50%;
+    transform: translateX(-50%);  /* centrowanie */
+    background: #000;
+    color: #fff;
+    padding: 20px 0;
 }
 
-
-
-.benefit-item i {
-
-    font-size: 40px;
-
-    color: #ff6b35;
-
-    margin-bottom: 15px;
-
+/* Ustaw ikonę obok tekstu */
+.benefit-item {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* wyśrodkowane w kolumnie */
+    gap: 10px; /* odstęp między ikoną a tekstem */
 }
 
+/* Ikony z Material Icons */
+.benefit-item i.material-icons {
+    font-size: 32px;
+    color: rgb(237, 32, 36);
+}
 
-
+/* Tekst */
 .benefit-item h5 {
-
+    margin: 0;
+    color: #fff;
     font-weight: 600;
-
 }
-
 
 
 .section-title {

@@ -4,7 +4,7 @@
     <div class="row justify-content-center">
       <div class="col-md-8">
         <div class="newsletter-content">
-          <h5>Sign up to newsletter</h5>
+          <h5>ZAPISZ SIĘ DO NEWSLETTERA</h5>
           {hook h='displayNewsletter'}
         </div>
       </div>

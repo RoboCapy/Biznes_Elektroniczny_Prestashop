@@ -41,6 +41,7 @@
     <div class="container">
        <div class="row align-items-center">
         <div class="col-md-3 hidden-sm-down" id="_desktop_logo">
+        <p><a href="https://localhost" style="box-sizing: border-box; color: #000000; text-decoration-line: none; background-color: #ffffff; transition: opacity 0.2s cubic-bezier(0.7, 0, 0.3, 1), color 0.2s cubic-bezier(0.7, 0, 0.3, 1); font-family: Lato, sans-serif; font-size: 14px;"><img class="logo img-fluid" src="https://poker-sklep.pl/img/logo-1692901878.jpg" alt="Test" width="228" height="50" style="box-sizing: border-box; vertical-align: middle; border-style: none; max-width: 100%; height: auto;" /></a></p>
           {if $shop.logo_details}
             {if $page.page_name == 'index'}
               <h1>

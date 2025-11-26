@@ -1,0 +1,138 @@
+
+{block name='page_title'}
+  <header class="page-header">
+    <h1 style="text-align:left;">Dostawa</h1>
+  </header>
+  <p></p>
+{/block}
+
+{block name='page_content'}
+  <section id="main">
+    <div id="content" class="page-content card card-block">
+      <div style="text-align:center; color:black;">
+        <h3 style="text-align: center;"><strong>Dostawa</strong>:</h3>
+        <h3 style="text-align: center;">W tej chwili możliwe są następujące formy dostawy:</h3>
+        <h3 style="text-align: center;"><br />Kurier DPD opłaceniu zamówienia - 14,90 zł<br />Kurier DPD za pobraniem - 16,90 zł<br />Paczkomaty Inpost - 9,90 zł<br />Poczta Polska – list polecony priorytetowy 8,90 zł</h3>
+        <p></p>
+        <h3 style="text-align: center;">Paczkomaty Inpost - 9,90 zł<br />Poczta Polska – list polecony priorytetowy 8,90 zł</h3>
+<p style="text-align: center;"><img src="https://poker-sklep.pl/img/cms/poczta.jpg" width="940" height="626" /></p>
+<h3 style="text-align: center;">Wszystkie powyższe metody dostawy umożliwiają śledzenie przesyłki.</h3>
+      </div>
+    </div>
+  </section>
+{/block}
+
+
+
+{block name='page_title'}
+  <header class="page-header">
+    <h1 style="text-align:left;">O sklepie</h1>
+  </header>
+{/block}
+
+{block name='page_content'}
+  <section id="main">
+    <div id="content" class="page-content card card-block">
+     <p style="text-align: center;"><span style="font-family:'comic sans ms', sans-serif;font-size:12pt; color: black;"><strong>Firma QUINT powstała w 2010 r. w związku z niszą rynkową dotyczącą branży gier karcianych. <br /><br />Pierwszą inicjatywą firmy Quint był założony w 2010 r. sklep z akcesoriami do gry w pokera sportowego.<br /><br />www.poker-sklep.pl był pierwszym e-sklepem skierowanym do osób, których pasją jest gra w pokera sportowego. <br /><br />W swej ofercie posiadamy produkty z całego świata, m.in. z USA, Hiszpanii, Brazylii, Belgi, Chin czy Austrii.<br /><br />Zapraszmy również na:<br />www.jokery.com.pl<br />www.quint.com.pl</strong></span></p>
+      <div style="padding: 20px;">
+      </div>
+      {* KONIEC WŁASNEJ TREŚCI *}
+    </div>
+  </section>
+{/block}
+
+{extends file=$layout}
+
+{block name='content'}
+
+  {* No newsletter on homepage - completely empty *}
+  {if $page.page_name == 'index'}
+    {* Empty homepage - no content at all *}
+  {else}
+    {* Regular page content for other pages *}
+    <section id="main">
+      {block name='page_header_container'}
+        {block name='page_title' hide}
+          <header class="page-header">
+            <h1>{$smarty.block.child}</h1>
+          </header>
+        {/block}
+      {/block}
+
+      {block name='page_content_container'}
+        <div id="content" class="page-content card card-block">
+          {block name='page_content_top'}{/block}
+          {block name='page_content'}
+            
+            {* --- START MODYFIKACJI: Warunkowe ładowanie treści z plików TPL --- *}
+            
+            {if isset($cms.id)}
+                {* Sprawdzamy ID strony CMS. Zmienne $cms.id pochodzi z kontrolera $CmsController$ *}
+                {if $cms.id == 4}
+                    {* O sklepie *}
+                    {include file='cms/o_sklepie.tpl'}
+                {elseif $cms.id == 1}
+                    {* Dostawa *}
+                    {include file='cms/dostawy.tpl'}
+                {elseif $cms.id == 5}
+                    {* Płatności *}
+                    {include file='cms/platnosci.tpl'}
+                {else}
+                    {* Dla wszystkich innych stron CMS (np. Stopka, RODO) ładowana jest treść z bazy danych *}
+                    {$cms.content nofilter}
+                {/if}
+            {else}
+                {* Domyślny fallback, jeśli zmienna ID jest nieokreślona *}
+                {$cms.content nofilter}
+            {/if}
+            
+            {* --- KONIEC MODYFIKACJI --- *}
+            
+          {/block}
+        </div>
+      {/block}
+
+      {block name='page_footer_container'}
+        <footer class="page-footer">
+          {block name='page_footer'}
+                      {/block}
+        </footer>
+      {/block}
+    </section>
+  {/if}
+
+{/block}
+
+
+{block name='page_title'}
+  <header class="page-header">
+    <h1 style="text-align:left;">Płatności</h1>
+  </header>
+{/block}
+
+{block name='page_content'}
+  <section id="main">
+    <div id="content" class="page-content card card-block">
+      <div style="text-align:center; color:black;">
+        <h3 style="text-align: center;">Płatność i dostawa<strong>.</strong></h3>
+<h3 style="text-align: center;"> </h3>
+<h3 style="text-align: center;">Wyspa Iluzji współpracuje z mechanizmem płatności internetowych przelewy24.pl</h3>
+<p style="text-align: center;"><img src="https://poker-sklep.pl/img/cms/p24.jpg" width="640" height="400" style="margin-left: auto; margin-right: auto;" /></p>
+<h3 style="text-align: center;">Dzięki wykorzystaniu tej metody pieniądze księgowane są na naszym koncie w kilka minut.</h3>
+<h3 style="text-align: center;">Skraca to czas realizacji zamówienia. System jest w 100% bezpieczny.</h3>
+<h3 style="text-align: center;">Możliwy jest również tradycyjny przelew na nasze konto firmowe jak również płatność za pobraniem.</h3>
+<h3 style="text-align: center;"> </h3>
+<h3 style="text-align: center;"><strong>Dostawa</strong>:</h3>
+<h3 style="text-align: center;">W tej chwili możliwe są następujące formy dostawy:</h3>
+<h3 style="text-align: center;">Kurier DPD opłaceniu zamówienia - 14,90 zł</h3>
+<h3 style="text-align: center;">Kurier DPD za pobraniem - 16,90 zł</h3>
+<h3 style="text-align: center;">Paczkomaty Inpost - 9,90 zł</h3>
+<h3 style="text-align: center;">Poczta Polska – list polecony priorytetowy 8,90 zł</h3>
+<p style="text-align: center;"><img src="https://poker-sklep.pl/img/cms/poczta.jpg" width="640" height="427" /></p>
+<h3 style="text-align: center;">Wszystkie powyższe metody dostawy umożliwiają śledzenie przesyłki.</h3>
+<p></p>
+<h3 align="center" style="text-align: center;"><span style="font-family: 'comic sans ms', sans-serif;"><strong><br />KONTO BANKOWE – Dane do przelewów<br /><br /></strong>Quint  </span><br /><span style="font-family: 'comic sans ms', sans-serif;">87-100 Toruń, ul. Wyspiańskiego 25/1A</span><br /><span style="font-family: 'comic sans ms', sans-serif;">mBANK: 19 1140 2004 0000 3602 7143 1238 </span><br /><br /><br /></h3>
+      </div>
+    </div>
+  </section>
+{/block}
