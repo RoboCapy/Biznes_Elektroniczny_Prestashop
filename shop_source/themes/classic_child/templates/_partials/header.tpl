@@ -5,15 +5,17 @@
         <div class="hidden-sm-down">
           <div class="col-md-6 left-nav">
             <a href="{url entity='cms' id=4}">O sklepie</a>
-            <a href="{url entity='cms' id=5}">Delivery</a>
-            <a href="{url entity='cms' id=6}">Secure payment</a>
+            <a href="{url entity='cms' id=1}">Dostawa</a>
+            <a href="{url entity='cms' id=5}">Płatności</a>
+            <a href="{url entity='contact'}">Kontakt z nami</a></li>
+
           </div>
           <div class="col-md-6 right-nav">
             {hook h='displayNav2'}
             <div class="header-top-wishlist">
               <a href="{url entity='module' name='blockwishlist' controller='mywishlist'}" title="{l s='My wishlists' d='Shop.Theme.Customeraccount'}">
                 <i class="material-icons">favorite</i>
-                <span class="hidden-sm-down">{l s='Wishlist' d='Shop.Theme.Customeraccount'}</span>
+                <span class="hidden-sm-down">{l s='Ulubione' d='Shop.Theme.Customeraccount'}</span>
               </a>
             </div>
           </div>
@@ -32,8 +34,10 @@
   </nav>
 {/block}
 
+
 {block name='header_top'}
   <div class="header-top">
+  
     <div class="container">
        <div class="row align-items-center">
         <div class="col-md-3 hidden-sm-down" id="_desktop_logo">
@@ -41,6 +45,7 @@
             {if $page.page_name == 'index'}
               <h1>
                 {renderLogo}
+                
               </h1>
             {else}
               {renderLogo}

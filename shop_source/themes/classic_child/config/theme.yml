@@ -9,3 +9,8 @@ assets:
       - id: classic_child_custom
         path: assets/css/custom.css
         priority: 2000  # Higher than parent
+
+cms:
+  4: cms/o_sklepie.tpl
+  1: cms/dostawy.tpl
+  5: cms/platnosci.tpl

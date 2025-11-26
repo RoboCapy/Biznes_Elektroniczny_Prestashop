@@ -47,7 +47,7 @@
         <h3>INFORMATION</h3>
         <ul>
           <li><a href="{url entity='contact'}">Skontaktuj się z nami</a></li>
-          <li><a href="{url entity='cms' id=5}">Delivery</a></li>
+          <li><a href="{url entity='cms' id=1}">Dostawy</a></li>
           <li><a href="{url entity='cms' id=7}">Legal Notice</a></li>
           <li><a href="{url entity='cms' id=4}">O sklepie</a></li>
           <li><a href="{$urls.pages.my_account}">My account</a></li>
