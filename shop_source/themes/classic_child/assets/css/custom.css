@@ -216,6 +216,122 @@ li .category a[data-depth="2"]:hover {
     padding-left: 40px !important;  /* miejsce na lupkę */
 }
 
+/* Homepage sections */
+
+.benefits-strip {
+
+    padding: 40px 0;
+
+    background: #f8f9fa;
+
+}
+
+
+
+.benefit-item i {
+
+    font-size: 40px;
+
+    color: #ff6b35;
+
+    margin-bottom: 15px;
+
+}
+
+
+
+.benefit-item h5 {
+
+    font-weight: 600;
+
+}
+
+
+
+.section-title {
+
+    text-align: center;
+
+    margin-bottom: 30px;
+
+    font-weight: 700;
+
+    text-transform: uppercase;
+
+}
+
+
+
+/* Category boxes */
+
+.category-box, .category-large {
+
+    padding: 40px 20px;
+
+    text-align: center;
+
+    color: white;
+
+    border-radius: 4px;
+
+    margin-bottom: 20px;
+
+    min-height: 200px;
+
+    display: flex;
+
+    flex-direction: column;
+
+    justify-content: center;
+
+    align-items: center;
+
+}
+
+
+
+.category-large {
+
+    min-height: 250px;
+
+}
+
+
+
+.category-box h3, .category-large h3 {
+
+    color: white;
+
+    margin-bottom: 20px;
+
+}
+
+
+
+/* Footer contact */
+
+.contact-item {
+
+    display: flex;
+
+    align-items: center;
+
+    margin-bottom: 10px;
+
+}
+
+
+
+.contact-item i {
+
+    width: 20px;
+
+    margin-right: 10px;
+
+    color: #ff6b35;
+
+}
+
 /* Responsive adjustments */
 @media (max-width: 767px) {
     .ps-emailsubscription-block form {
