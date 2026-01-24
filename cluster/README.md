@@ -38,6 +38,16 @@ ssh -L 19803:student-swarm01.maas:19803 rsww@172.20.83.101
 - Zdjęcia produktów nie ładują się odrazu, trzeba wejść na https://localhost:19803/admin...
 Preferencje->Ruch: Wyłącz Friendly URL zapisz, Włącz ponowinie i zapisz, teraz zdjęcia powinny być widoczne.
 
+# Podgląd bazy danych:
+-Aby podejrzeć bazę należy otworzyć tunel:
+```sh
+ssh -L 9099:student-swarm01.maas:9099 rsww@172.20.83.101
+```
+-Wchodzimy na http://localhost:9099/
+-Użytkownik: root
+-Hasło: student
+-Szukamy bazy o nazwie BE_198035 
+
 # Skrypty
 Jeżeli skrypt nie ma uprawnień do uruchomienia:
 
