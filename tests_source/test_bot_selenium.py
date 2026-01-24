@@ -11,11 +11,11 @@ from selenium.common.exceptions import TimeoutException
 import os
 import re
 
-SHOP_URL = "https://localhost"
+SHOP_URL = "https://localhost:19803"
 SEARCH_TERM = "bicycle" 
 
-CAT_URL_1 = f"{SHOP_URL}/351-karty-do-gry" 
-CAT_URL_2 = f"{SHOP_URL}/355-zestawy-pokerowe" 
+CAT_URL_1 = f"{SHOP_URL}/index.php?id_category=31&controller=category" 
+CAT_URL_2 = f"{SHOP_URL}/index.php?id_category=34&controller=category" 
 
 
 def generate_random_email():
@@ -34,6 +34,7 @@ def setup_driver():
         "download.default_directory": download_dir,
         "download.prompt_for_download": False, 
         "download.directory_upgrade": True,
+
         "plugins.always_open_pdf_externally": True,
         "profile.default_content_settings.popups": 0,
         "safebrowsing.enabled": True
@@ -183,7 +184,7 @@ def main():
 
         # 3. REJESTRACJA
         print("3. Rejestracja...")
-        driver.get(f"{SHOP_URL}/logowanie?back=my-account")
+        driver.get(f"{SHOP_URL}/index.php?controller=authentication&back=my-account")
         try:
             wait.until(EC.element_to_be_clickable((By.CSS_SELECTOR, "div.no-account"))).click()
             
@@ -214,7 +215,7 @@ def main():
         # 4. USUNIĘCIE PRODUKTÓW
         print("4. Usuwanie produktów z koszyka...")
         time.sleep(1)
-        driver.get(f"{SHOP_URL}/koszyk?action=show")
+        driver.get(f"{SHOP_URL}/index.php?controller=cart?action=show")
         try:
             for _ in range(3):
                 delete_icons = wait.until(EC.presence_of_all_elements_located((By.CLASS_NAME, "remove-from-cart")))
@@ -228,7 +229,7 @@ def main():
         print("Ustawianie adresu...")
         try:
             #Politechnika, Gabriela Narutowicza 11/12, 80-233 Gdańsk
-            driver.get(f"{SHOP_URL}/zamówienie")
+            driver.get(f"{SHOP_URL}/index.php?controller=order")
             #wait.until(EC.element_to_be_clickable((By.Id, "field-address1"))).send_keys("Gabriela Narutowicza 11/12 ")
             
             driver.find_element(By.ID, "field-address1").send_keys("Gabriela Narutowicza 11/12")
@@ -268,8 +269,7 @@ def main():
             
         except Exception as e:
             print(f"  Błąd przy wyborze dostawy: {e}")
-        print("Wybór płatności... (W wymaganiach jest płatność przy odbiorze to po dodaniu tego rodzaju płatności pingnijcie \
-            mnie albo sami dodajcie aktualnie będzie 1 widoczna co w tym przypadku to Zapłać czekiem")
+        
         try:
             
             
@@ -285,10 +285,10 @@ def main():
             print("  Błąd przy wyborze płatności")
         print("Sprawdzenie szczegółów zamówienia i pobranie faktury")
         try:
-            wait.until(EC.element_to_be_clickable((By.CSS_SELECTOR, ".account"))).click()
+            wait.until(EC.element_to_be_clickable((By.CSS_SELECTOR, "#header-user-btn"))).click()
             wait.until(EC.element_to_be_clickable((By.CSS_SELECTOR, "#history-link"))).click()
             wait.until(EC.element_to_be_clickable((By.CSS_SELECTOR, "a[data-link-action='view-order-details']"))).click()
-            wait.until(EC.element_to_be_clickable((By.PARTIAL_LINK_TEXT, "Pobierz fakturę"))).click()
+            wait.until(EC.element_to_be_clickable((By.PARTIAL_LINK_TEXT, "Download your invoice as a PDF file."))).click()
         except:
             print("Błąd przy procesie sprawdzania zamówienia lub pobierania faktury")
 
