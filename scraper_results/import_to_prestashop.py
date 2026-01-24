@@ -8,7 +8,7 @@ import urllib.parse
 import random
 from datetime import datetime
 
-API_URL = "https://localhost/api"
+API_URL = "https://localhost:19803/api"
 API_KEY = "ALKD3CYIH3NAB8GM9R1VQZKHPVGL8242"
 JSON_FILE = "data.json"
 
@@ -372,7 +372,7 @@ def create_product(data, category_id,combinations=None):
             if combinations:
                 for val_id in combinations.atribute_values_id:
                     create_combination(prod_id, val_id) 
-            quantity=random.randint(0,10) 
+            quantity=random.randint(0,100) 
             update_stock(prod_id, quantity)
             ifsale=random.randint(0,9)
             if ifsale==0:
