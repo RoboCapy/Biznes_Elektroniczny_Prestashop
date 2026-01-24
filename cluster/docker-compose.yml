@@ -1,0 +1,28 @@
+services:
+  prestashop:
+    image: seredvskv/biznes-elektroniczny:latest
+    ports:
+      - target: 443
+        published: 19803
+    environment:
+      - PS_DEV_MODE=1
+      - DB_SERVER=admin-mysql_db
+      - DB_NAME=BE_198035
+      - DB_USER=root
+      - DB_PASSWD=student
+    deploy:
+      resources:
+        limits:
+          cpus: '2.0'
+          memory: 2.0G
+        reservations:
+          cpus: '1.0'
+          memory: 1.0G
+    networks:
+      - prestashop_default
+      - admin-mysql_default
+
+networks:
+  prestashop_default:
+  admin-mysql_default:
+    external: true
