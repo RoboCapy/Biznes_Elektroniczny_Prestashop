@@ -47,13 +47,13 @@
       <link rel="alternate" href="{$pageUrl}" hreflang="{$code}">
     {/foreach}
   {/block}
-  
+
   {block name='head_microdata'}
     {include file="_partials/microdata/head-jsonld.tpl"}
   {/block}
-  
+
   {block name='head_microdata_special'}{/block}
-  
+
   {block name='head_pagination_seo'}
     {include file="_partials/pagination-seo.tpl"}
   {/block}
@@ -64,7 +64,7 @@
     <meta property="og:url" content="{$urls.current_url}" />
     <meta property="og:site_name" content="{$shop.name}" />
     {if !isset($product) && $page.page_name != 'product'}<meta property="og:type" content="website" />{/if}
-  {/block}  
+  {/block}
 {/block}
 
 {block name='head_viewport'}
@@ -89,6 +89,7 @@
 {/block}
 
 {block name='hook_extra'}{/block}
+
 {literal}
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-SPC32DEE31"></script>
 <script>
@@ -96,6 +97,47 @@
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
-  gtag('config', 'G-SPC32DEE31');
+  gtag('config', 'G-SPC32DEE31', {
+  'debug_mode': true
+  });
+
+  // Event dodania do koszyka
+  document.addEventListener("DOMContentLoaded", function() {
+
+    document.body.addEventListener('click', function(e) {
+
+      // Sprawdzamy, czy kliknięto w element mający atrybut data-button-action="add-to-cart"
+      // lub czy kliknięto w jego dziecko (np. ikonę wewnątrz przycisku)
+      var btn = e.target.closest('[data-button-action="add-to-cart"]');
+
+      if (btn) {
+        // 1. Pobieranie nazwy produktu (h1 na karcie produktu lub .modal-title w QuickView)
+        var nameElement = document.querySelector('h1') || document.querySelector('.modal-title');
+
+        // 2. Pobieranie ceny (szukamy elementu z atrybutem 'content', który PrestaShop standardowo dodaje dla SEO)
+        var priceElement = document.querySelector('.current-price span[content]');
+
+        // 3. Wykrywanie promocji
+        // Szukamy elementu z klasą .discount-percentage (np. "-20%") lub .discount-amount
+        var isPromo = document.querySelector('.discount-percentage, .discount-amount') !== null;
+        var promoStatus = isPromo ? 'Tak' : 'Nie';
+
+        // Wysyłamy zdarzenie do Google Analytics
+        if (typeof gtag !== 'undefined') {
+            gtag('event', 'add_to_cart', {
+              'currency': 'PLN',
+              'value': priceElement ? parseFloat(priceElement.getAttribute('content')) : 0,
+              'discount': promoStatus,
+              'items': [{
+                'item_name': nameElement ? nameElement.innerText.trim() : 'Produkt',
+                'discount': promoStatus, // Wymagany parametr dla Twojego projektu
+                'promotion_name': isPromo ? 'Promocja_sklepowa' : ''
+              }]
+            });
+            console.log('GA4 Event: add_to_cart sent. Promo:', isPromo);
+        }
+      }
+    });
+  });
 </script>
 {/literal}
