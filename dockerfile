@@ -1,6 +1,6 @@
 FROM prestashop/prestashop:1.7.8
 
-RUN rm -rf /var/www/html/*
+#RUN rm -rf /var/www/html/*
 COPY --chown=33:33 --chmod=755 ./shop_source /var/www/html
 COPY --chown=33:33 --chmod=755 ./cluster/parameters.php /var/www/html/app/config/parameters.php
 
