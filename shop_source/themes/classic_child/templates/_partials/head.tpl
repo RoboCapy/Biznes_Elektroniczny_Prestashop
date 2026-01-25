@@ -141,3 +141,56 @@
   });
 </script>
 {/literal}
+
+{if $page.page_name == 'order-confirmation'}
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    
+    // cena zamowienia
+    var revenue = 0;
+    var priceElement = document.querySelector('.order-confirmation-table tr.font-weight-bold td:last-child');
+    
+    if (!priceElement) {
+       var allPrices = document.querySelectorAll('.order-confirmation-table td');
+       if (allPrices.length > 0) {
+           priceElement = allPrices[allPrices.length - 1];
+       }
+    }
+
+    if (priceElement) {
+        var textPrice = priceElement.innerText;
+        textPrice = textPrice.replace(/[^\d.,]/g, ''); 
+        textPrice = textPrice.replace(',', '.');
+        revenue = parseFloat(textPrice);
+    }
+
+    // id zamowienia
+    var transactionId = 'ORDER-' + Date.now(); // fallback id
+    var detailsBlock = document.querySelector('#order-details');
+    var pageContent = detailsBlock ? detailsBlock.innerText : document.body.innerText;
+    var match = pageContent.match(/(?:Order reference|Nr referencyjny|referencyjny zamówienia)[:\s]+([A-Z0-9]+)/i);
+
+    if (match && match[1]) {
+        transactionId = match[1]; // Znaleziono np. "JTMYNXDUQ"
+    }
+
+    // wyslanie zdarzenia do Google Analytics
+    if (revenue > 0) {
+        gtag('event', 'purchase', {
+            'transaction_id': transactionId,
+            'value': revenue,
+            'currency': 'PLN',
+            'tax': 0,
+            'shipping': 0,
+            'items': [] 
+        });
+        
+        console.log('Zamówienie GA4:');
+        console.log('ID:', transactionId);
+        console.log('Kwota:', revenue);
+    } else {
+        console.log('Błąd GA4: Nie udało się pobrać ceny zamówienia.');
+    }
+  });
+</script>
+{/if}
