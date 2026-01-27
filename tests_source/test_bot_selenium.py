@@ -14,8 +14,8 @@ import re
 SHOP_URL = "https://localhost:19803"
 SEARCH_TERM = "bicycle" 
 
-CAT_URL_1 = f"{SHOP_URL}/index.php?id_category=31&controller=category" 
-CAT_URL_2 = f"{SHOP_URL}/index.php?id_category=34&controller=category" 
+CAT_URL_1 = f"{SHOP_URL}/index.php?id_category=90&controller=category" 
+CAT_URL_2 = f"{SHOP_URL}/index.php?id_category=94&controller=category" 
 
 
 def generate_random_email():
@@ -47,12 +47,16 @@ def setup_driver():
     return driver
 def extract_product_id_from_url(url):
     import re
+    from urllib.parse import urlparse, parse_qs
     try:
-        
-        ids = re.findall(r'/(\d+)-', url) 
+        parsed_url = urlparse(url)
+        query_params = parse_qs(parsed_url.query)
+        if 'id_product' in query_params:
+            return query_params['id_product'][0]
+
+        ids = re.findall(r'/(\d+)-', url)
         if ids:
-            
-            return ids[-1] 
+            return ids[-1]
     except:
         pass
     return None
@@ -100,13 +104,17 @@ def add_products_from_category(driver, category_url, count):
                 
                 
                 print(" [!] BŁĄD STOCKU WYKRYTY (AJAX). Przechodzę dalej.")
-                driver.get(f"{SHOP_URL}/koszyk?action=show")
+                driver.get(f"{SHOP_URL}/index.php?controller=cart?action=show")
                 try:
                     test = driver.find_elements(By.CSS_SELECTOR,f"a[data-id-product='{current_prod_id}']")
+                    #input("Naciśnij Enter, aby kontynuować...")
                     if test:
+                        #input("Naciśnij Enter, aby kontynuować...")
                         wait.until(EC.element_to_be_clickable((By.CSS_SELECTOR, f"a[data-id-product='{current_prod_id}']"))).click()
-
+                    
                     else: print("Działa ale nie wiem w sumie czemu")
+                    print(current_prod_id)
+                    #input("Naciśnij Enter, aby kontynuować...")
                 except: pass
                 
                 continue 
